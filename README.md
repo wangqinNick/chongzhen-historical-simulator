@@ -114,3 +114,7 @@ zh-CN
 更稳：角色卡使用 `崇祯模拟器_Narrator角色卡草案.md`，World Info / Lorebook 使用 `核心规则_Lorebook草案.md` 的分条触发词，当前状态使用 `当前状态_AuthorNote模板.md`。
 
 修改后校验：运行 `python scripts/validate_project.py`，确认模块数量、人物卡数量、Lorebook JSON 和最终复制包都完整。
+
+一键构建：运行 `powershell -ExecutionPolicy Bypass -File scripts/build_all.ps1`，会依次生成 Narrator、人物卡、快速卡、开局剧本、完整 Lorebook、最终复制包并执行校验。
+
+开局测试：使用 `saves/开局测试用例.md` 中的 6 组提示验证开局、辽东、财政、剿抚、西学和崇祯十四年救火局。
