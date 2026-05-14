@@ -22,6 +22,16 @@ def all_modules_text() -> str:
     return "".join(chunks).strip()
 
 
+def all_character_cards_text() -> str:
+    char_dir = ROOT / "sillytavern" / "人物卡" / "markdown"
+    if not char_dir.exists():
+        return "尚未生成具体人物卡。"
+    chunks: list[str] = []
+    for path in sorted(char_dir.glob("*.md"), key=lambda p: p.name):
+        chunks.append(f"\n\n===== {path.name} =====\n\n{path.read_text(encoding='utf-8').strip()}")
+    return "".join(chunks).strip()
+
+
 def main() -> None:
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     one_copy = read("sillytavern/一键复制版_崇祯模拟器.md")
@@ -30,6 +40,7 @@ def main() -> None:
     scenario_notes = read("sillytavern/开局剧本_AuthorNote合集.md")
     snapshot = read("sillytavern/轻量状态快照模板.md")
     core_lore = read("sillytavern/核心规则_Lorebook草案.md")
+    character_cards = all_character_cards_text()
     baseline = read("research/baseline_data_register.md")
     sources = read("research/source_catalog.md")
     modules = all_modules_text()
@@ -43,9 +54,10 @@ def main() -> None:
 1. 在 SillyTavern 新建角色，角色名填“大明国运裁判”或“崇祯历史模拟器 Narrator”。
 2. 把“01 角色卡 / System Prompt”复制到角色卡 Description、System Prompt 或同类高优先级字段。
 3. 把“02 Author's Note 初始状态”复制到当前聊天的 Author's Note。
-4. 在 World Info / Lorebook 页面导入 `sillytavern/import/崇祯历史模拟器_全模块Lorebook.json`。如果不导入 JSON，就把“03 核心 Lorebook 手工条目”逐条复制进去。
-5. 把“04 全模块资料包”放进 Data Bank / RAG，或作为长资料另存后让模型检索。
-6. 开局时发送：“按崇祯元年剧本开局，先给我国势盘点和第一回合可选诏书。”
+4. 在 World Info / Lorebook 页面导入 `sillytavern/import/崇祯历史模拟器_完整Lorebook.json`。如果只想轻量导入，可以用 `核心Lorebook` 或 `全模块Lorebook`。
+5. 如需多角色群聊，把 `sillytavern/人物卡/json/` 下的角色卡逐个导入 SillyTavern。
+6. 把“05 全模块资料包”和“06 人物卡资料包”放进 Data Bank / RAG，或作为长资料另存后让模型检索。
+7. 开局时发送：“按崇祯元年剧本开局，先给我国势盘点和第一回合可选诏书。”
 
 ## 01 角色卡 / System Prompt
 
@@ -103,7 +115,15 @@ def main() -> None:
 {modules}
 ~~~~
 
-## 05 已采用基准数据
+## 05 人物卡资料包
+
+可作为 Data Bank / RAG 长资料，也可按 `sillytavern/人物卡/json/` 逐个导入为 SillyTavern 角色卡。
+
+~~~~text
+{character_cards}
+~~~~
+
+## 06 已采用基准数据
 
 这些数据已经进入模拟器。新数据必须继续按同样口径登记。
 
@@ -111,7 +131,7 @@ def main() -> None:
 {baseline}
 ~~~~
 
-## 06 资料来源与后续检索
+## 07 资料来源与后续检索
 
 所有史料、论文、网络资料与可信度限制汇总在这里。
 

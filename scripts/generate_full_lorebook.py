@@ -12,6 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CORE_PATH = ROOT / "sillytavern" / "import" / "崇祯历史模拟器_核心Lorebook.json"
 OUT_PATH = ROOT / "sillytavern" / "import" / "崇祯历史模拟器_全模块Lorebook.json"
+COMPLETE_OUT_PATH = ROOT / "sillytavern" / "import" / "崇祯历史模拟器_完整Lorebook.json"
+CHARACTER_LOREBOOK_PATH = ROOT / "sillytavern" / "import" / "崇祯历史模拟器_人物Lorebook.json"
 MODULE_DIR = ROOT / "modules"
 
 
@@ -104,6 +106,21 @@ def main() -> None:
 
     OUT_PATH.write_text(json.dumps(OrderedDict(entries=entries), ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {len(entries)} entries to {OUT_PATH}")
+
+    if CHARACTER_LOREBOOK_PATH.exists():
+        complete_entries: OrderedDict[str, OrderedDict] = OrderedDict(entries)
+        next_uid = max(int(key) for key in complete_entries) + 1
+        character_lorebook = json.loads(CHARACTER_LOREBOOK_PATH.read_text(encoding="utf-8"), object_pairs_hook=OrderedDict)
+        for entry in character_lorebook["entries"].values():
+            copied = OrderedDict(entry)
+            copied["uid"] = next_uid
+            complete_entries[str(next_uid)] = copied
+            next_uid += 1
+        COMPLETE_OUT_PATH.write_text(
+            json.dumps(OrderedDict(entries=complete_entries), ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        print(f"Wrote {len(complete_entries)} entries to {COMPLETE_OUT_PATH}")
 
 
 if __name__ == "__main__":
