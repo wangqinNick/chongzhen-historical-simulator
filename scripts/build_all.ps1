@@ -9,6 +9,7 @@ python scripts\generate_character_cards.py
 python scripts\generate_quick_cards_lorebook.py
 python scripts\generate_scenario_lorebook.py
 python scripts\generate_scenario_saves.py
+python scripts\generate_module_index.py
 python scripts\generate_full_lorebook.py
 python scripts\build_final_copy_pack.py
 python scripts\generate_package_manifest.py

@@ -103,6 +103,8 @@ def main() -> None:
     next_uid = max(int(key) for key in entries) + 1
 
     for path in sorted(MODULE_DIR.glob("*.md"), key=lambda p: p.name):
+        if not path.name[:2].isdigit():
+            continue
         entries[str(next_uid)] = module_entry(path, next_uid)
         next_uid += 1
 

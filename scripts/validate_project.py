@@ -24,6 +24,8 @@ REQUIRED_FILES = [
     "sillytavern/当前状态_AuthorNote模板.md",
     "sillytavern/开局剧本_AuthorNote合集.md",
     "sillytavern/快速卡/地区军队派系卡.md",
+    "modules/module_index.json",
+    "modules/模块依赖图.md",
     "saves/开局存档/README.md",
 ]
 
@@ -60,8 +62,9 @@ def main() -> None:
             fail(f"empty required file: {rel}")
 
     modules = sorted((ROOT / "modules").glob("*.md"))
-    if len(modules) != 41:
-        fail(f"expected 41 modules, found {len(modules)}")
+    numbered_modules = [path for path in modules if path.name[:2].isdigit()]
+    if len(numbered_modules) != 41:
+        fail(f"expected 41 numbered modules, found {len(numbered_modules)}")
 
     character_json = sorted((ROOT / "sillytavern" / "人物卡" / "json").glob("*.json"))
     character_md = sorted((ROOT / "sillytavern" / "人物卡" / "markdown").glob("*.md"))
@@ -108,12 +111,16 @@ def main() -> None:
     if counts.get("opening_saves", 0) < 6:
         fail("manifest opening save count is incorrect")
 
+    module_index = load_json(ROOT / "modules" / "module_index.json")
+    if len(module_index.get("modules", [])) != 41:
+        fail("module index should contain 41 modules")
+
     for path in opening_saves:
         data = load_json(path)
         if not data.get("author_note") or not data.get("fields"):
             fail(f"opening save missing author_note or fields: {path}")
 
-    scan_files = modules + [
+    scan_files = numbered_modules + [
         ROOT / "README.md",
         ROOT / "sillytavern" / "最终一键复制包_崇祯历史模拟器.md",
         ROOT / "research" / "source_catalog.md",

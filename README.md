@@ -122,3 +122,5 @@ zh-CN
 开局存档：`saves/开局存档/` 已生成 6 个年份的 Author's Note 快照和 JSON 存档，可直接复制开跑。
 
 包清单：`sillytavern/package_manifest.json` 记录当前包的主要文件、条目数量和 SHA-256，用于导入前核对。
+
+模块导航：`modules/module_index.json` 和 `modules/模块依赖图.md` 记录 41 个模块的状态、优先级和依赖关系。

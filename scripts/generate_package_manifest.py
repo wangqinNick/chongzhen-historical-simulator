@@ -51,7 +51,7 @@ def main() -> None:
         package="chongzhen-historical-simulator",
         status="v1-ready",
         counts=OrderedDict(
-            modules=len(list((ROOT / "modules").glob("*.md"))),
+            modules=len([path for path in (ROOT / "modules").glob("*.md") if path.name[:2].isdigit()]),
             character_json=len(character_json),
             character_markdown=len(character_md),
             opening_saves=len(opening_json),
