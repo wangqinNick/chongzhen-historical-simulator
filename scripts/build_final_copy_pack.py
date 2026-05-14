@@ -27,6 +27,7 @@ def main() -> None:
     one_copy = read("sillytavern/一键复制版_崇祯模拟器.md")
     narrator = read("sillytavern/崇祯模拟器_Narrator角色卡草案.md")
     author_note = read("sillytavern/当前状态_AuthorNote模板.md")
+    scenario_notes = read("sillytavern/开局剧本_AuthorNote合集.md")
     snapshot = read("sillytavern/轻量状态快照模板.md")
     core_lore = read("sillytavern/核心规则_Lorebook草案.md")
     baseline = read("research/baseline_data_register.md")
@@ -76,6 +77,14 @@ def main() -> None:
 
 ~~~~text
 {snapshot}
+~~~~
+
+## 02B 多年份开局 Author's Note
+
+如果你不从崇祯元年开局，复制对应年份的 Author's Note。
+
+~~~~text
+{scenario_notes}
 ~~~~
 
 ## 03 核心 Lorebook 手工条目

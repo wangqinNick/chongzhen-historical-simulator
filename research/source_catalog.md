@@ -50,6 +50,10 @@
 | 故宫博物院“祖大寿” | https://www.dpm.org.cn/court/figure/104042.html | 用于祖大寿在袁崇焕体系和宁锦战事中的位置 |
 | 故宫博物院“周延儒” | https://www.dpm.org.cn/court/figure/104039.html | 用于周延儒崇祯初入朝、受宠和入阁路径 |
 | 明清漕运的经济账 | https://www.gzszx.gov.cn/wstd/wsmb/32884.shtml | 用于漕运 400 万石定额、运河供应京师和漕运腐败/附费的二级佐证 |
+| 己巳之变资料索引 | https://zh.wikipedia.org/wiki/%E5%B7%B1%E5%B7%B3%E4%B9%8B%E8%AE%8A_(%E5%B4%87%E7%A6%8E) | 用于崇祯二年京畿危机线索；需继续回溯《崇祯实录》《明史》 |
+| 大凌河之役资料索引 | https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%87%8C%E6%B2%B3%E4%B9%8B%E5%BD%B9 | 用于崇祯四年辽东筑城、援军与祖大寿危机线索 |
+| 辽饷资料索引 | https://www.lsqn.cn/ChinaHistory/ming/200702/1360.html | 用于崇祯四年辽饷加重的待复核数据 |
+| 1634 年大事记资料索引 | https://www.newton.com.tw/wiki/1634%E5%B9%B4/1118021 | 用于崇祯七年车箱峡、农民军入河南、后金入宣府等事件线索 |
 
 ## 待查清单
 
