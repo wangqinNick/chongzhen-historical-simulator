@@ -73,6 +73,8 @@ def main() -> None:
     character_md = sorted((ROOT / "sillytavern" / "人物卡" / "markdown").glob("*.md"))
     if len(character_json) < 20 or len(character_md) < 20:
         fail(f"expected at least 20 character cards, found json={len(character_json)}, md={len(character_md)}")
+    if len(character_json) != len(character_md):
+        fail(f"character json/markdown count mismatch: json={len(character_json)}, md={len(character_md)}")
 
     opening_saves = sorted((ROOT / "saves" / "开局存档").glob("*.json"))
     if len(opening_saves) < 6:
@@ -82,6 +84,12 @@ def main() -> None:
         data = load_json(path)
         if data.get("spec") != "chara_card_v2":
             fail(f"{path} is not chara_card_v2")
+        card_data = data.get("data", {})
+        description = card_data.get("description", "")
+        if "【资料来源】" not in description or "【史实要点】" not in description:
+            fail(f"{path} is missing source or factual notes")
+        if not card_data.get("creator_notes") or "触发词" not in card_data["creator_notes"]:
+            fail(f"{path} is missing trigger creator notes")
 
     lorebooks = [
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_核心Lorebook.json",
@@ -128,8 +136,10 @@ def main() -> None:
         "sillytavern/import/",
         "sillytavern/人物卡/json/",
         "sillytavern/最终一键复制包_崇祯历史模拟器.md",
+        "sillytavern/玩家指令模板.md",
         "saves/开局存档/",
         "modules/module_index.json",
+        "docs/",
         "README.md",
     ]
     for fragment in required_zip_fragments:
