@@ -118,3 +118,5 @@ zh-CN
 一键构建：运行 `powershell -ExecutionPolicy Bypass -File scripts/build_all.ps1`，会依次生成 Narrator、人物卡、快速卡、开局剧本、完整 Lorebook、最终复制包并执行校验。
 
 开局测试：使用 `saves/开局测试用例.md` 中的 6 组提示验证开局、辽东、财政、剿抚、西学和崇祯十四年救火局。
+
+开局存档：`saves/开局存档/` 已生成 6 个年份的 Author's Note 快照和 JSON 存档，可直接复制开跑。

@@ -23,6 +23,7 @@ REQUIRED_FILES = [
     "sillytavern/当前状态_AuthorNote模板.md",
     "sillytavern/开局剧本_AuthorNote合集.md",
     "sillytavern/快速卡/地区军队派系卡.md",
+    "saves/开局存档/README.md",
 ]
 
 BAD_MARKERS = [
@@ -66,6 +67,10 @@ def main() -> None:
     if len(character_json) < 20 or len(character_md) < 20:
         fail(f"expected at least 20 character cards, found json={len(character_json)}, md={len(character_md)}")
 
+    opening_saves = sorted((ROOT / "saves" / "开局存档").glob("*.json"))
+    if len(opening_saves) < 6:
+        fail(f"expected at least 6 opening save JSON files, found {len(opening_saves)}")
+
     for path in character_json:
         data = load_json(path)
         if data.get("spec") != "chara_card_v2":
@@ -93,6 +98,11 @@ def main() -> None:
     if narrator.get("spec") != "chara_card_v2":
         fail("Narrator card is not chara_card_v2")
 
+    for path in opening_saves:
+        data = load_json(path)
+        if not data.get("author_note") or not data.get("fields"):
+            fail(f"opening save missing author_note or fields: {path}")
+
     scan_files = modules + [
         ROOT / "README.md",
         ROOT / "sillytavern" / "最终一键复制包_崇祯历史模拟器.md",
@@ -107,6 +117,7 @@ def main() -> None:
     print(
         "OK: modules=41, "
         f"characters={len(character_json)}, "
+        f"opening_saves={len(opening_saves)}, "
         f"complete_lorebook_entries={len(complete_entries)}"
     )
 
