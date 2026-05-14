@@ -30,6 +30,7 @@ zh-CN
 - templates/：人物、地区、军队、政策、科技、日志等模板。
 - research/：史料、论文、检索关键词和可信度记录。
 - saves/：回合日志、状态快照、政策执行结果和存档。
+- docs/：SillyTavern 导入指南、发布包说明和使用排错。
 
 ## 模块索引
 
@@ -105,6 +106,8 @@ zh-CN
 
 推荐：在 SillyTavern 的 World Info / Lorebook 页面导入 `sillytavern/import/崇祯历史模拟器_完整Lorebook.json`，它包含核心规则、41 个模块条目、快速卡、开局剧本和首批人物条目。
 
+详细导入：`docs/sillytavern_import_guide.md` 说明一键复制、完整 Lorebook、轻量核心规则三种使用方式，以及人物卡、开局存档和常见问题处理。
+
 快速局势：`sillytavern/快速卡/地区军队派系卡.md` 提供京师、辽东、陕西、河南、江南、山东登莱、宣大蓟镇、关宁军、京营、卫所、剿贼官军、东林士论、阉党清算、商帮海商等高频卡，适合放进 Data Bank 或导入快速卡 Lorebook。
 
 多角色：把 `sillytavern/人物卡/json/` 下的人物 JSON 逐个导入 SillyTavern，可用于 Group Chat；单 Narrator 模式则导入 `sillytavern/import/崇祯历史模拟器_人物Lorebook.json` 即可。
@@ -126,3 +129,5 @@ zh-CN
 模块导航：`modules/module_index.json` 和 `modules/模块依赖图.md` 记录 41 个模块的状态、优先级和依赖关系。
 
 发布包：`dist/chongzhen-sillytavern-bundle.zip` 汇总了最终复制包、导入清单、Lorebook、Narrator、人物卡、快速卡、开局存档和资料登记表。
+
+发布说明：`docs/release_bundle_manifest.md` 记录发布包内容、重新生成命令和校验范围。

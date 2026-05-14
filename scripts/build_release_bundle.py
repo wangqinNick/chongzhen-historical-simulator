@@ -28,6 +28,7 @@ FILES = [
 ]
 
 DIRS = [
+    "docs",
     "sillytavern/import",
     "sillytavern/人物卡/json",
     "sillytavern/人物卡/markdown",
