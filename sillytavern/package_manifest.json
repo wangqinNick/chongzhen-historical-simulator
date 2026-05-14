@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-05-15T00:26:12",
+  "package": "chongzhen-historical-simulator",
+  "status": "v1-ready",
+  "counts": {
+    "modules": 41,
+    "character_json": 20,
+    "character_markdown": 20,
+    "opening_saves": 6,
+    "lorebooks": {
+      "崇祯历史模拟器_人物Lorebook.json": 20,
+      "崇祯历史模拟器_全模块Lorebook.json": 56,
+      "崇祯历史模拟器_完整Lorebook.json": 96,
+      "崇祯历史模拟器_开局剧本Lorebook.json": 6,
+      "崇祯历史模拟器_快速卡Lorebook.json": 14,
+      "崇祯历史模拟器_核心Lorebook.json": 15
+    }
+  },
+  "primary_files": [
+    {
+      "path": "sillytavern/崇祯模拟器_Narrator角色卡.json",
+      "bytes": 4361,
+      "sha256": "c55b6d9b886ba20c87363813992a0fff737efabd11bd9c8a74462547800fa2ed"
+    },
+    {
+      "path": "sillytavern/最终一键复制包_崇祯历史模拟器.md",
+      "bytes": 318317,
+      "sha256": "51d1db7e08331a2a965a820bf8fca2d56b7c05c215b4d6333f6ec7f3ddc1c2af"
+    },
+    {
+      "path": "sillytavern/导入清单.md",
+      "bytes": 2476,
+      "sha256": "811d61e375b735fa0b62437d5e2ceba13250fa346f7a8019bce15bc2c1bb512b"
+    },
+    {
+      "path": "sillytavern/快速卡/地区军队派系卡.md",
+      "bytes": 12890,
+      "sha256": "d9fe49e10b56dc902cfec0f5505e104f7771e9c4aec95835e7840571f87d5bb1"
+    },
+    {
+      "path": "research/baseline_data_register.md",
+      "bytes": 14889,
+      "sha256": "e5033e49c98c49f1aa69c8e446d3970a1697e0e7cc1d217be619e2b193c6e8a1"
+    },
+    {
+      "path": "research/source_catalog.md",
+      "bytes": 6683,
+      "sha256": "7a8a5a05566fcd350b9271530dc079ac26342d513ca79b5302346cdd3e7c4baf"
+    }
+  ],
+  "lorebook_files": [
+    {
+      "path": "sillytavern/import/崇祯历史模拟器_人物Lorebook.json",
+      "bytes": 33615,
+      "sha256": "e3f9fd5de9d7d5ad3135abd6c990f4646cf5527e6c8673461934427e3f6cfb4f"
+    },
+    {
+      "path": "sillytavern/import/崇祯历史模拟器_全模块Lorebook.json",
+      "bytes": 94008,
+      "sha256": "5b8394b38a0d64f5e52f48e9782430eb03e8dcd55a3a2e13f613f60f7ad66d9d"
+    },
+    {
+      "path": "sillytavern/import/崇祯历史模拟器_完整Lorebook.json",
+      "bytes": 164147,
+      "sha256": "ecfa9de2c715ebe7f89f0dd803a4607116e49c97f09c430d1a4e9716df87d879"
+    },
+    {
+      "path": "sillytavern/import/崇祯历史模拟器_开局剧本Lorebook.json",
+      "bytes": 10204,
+      "sha256": "669b439d5696020c2d05a2102ede03ba128f5bb4ff37e4e664448297cd5d1797"
+    },
+    {
+      "path": "sillytavern/import/崇祯历史模拟器_快速卡Lorebook.json",
+      "bytes": 26452,
+      "sha256": "2888f320c3fd337484034b1c37f28f75728ed251cf69fbd98962bf9bfbf75533"
+    },
+    {
+      "path": "sillytavern/import/崇祯历史模拟器_核心Lorebook.json",
+      "bytes": 17706,
+      "sha256": "f43778d30cbcf4dd95ac8b03c89a84c673e2c4e3333251a4ec89dac9bed89e2a"
+    }
+  ],
+  "character_files": [
+    {
+      "path": "sillytavern/人物卡/json/bi_ziyan.json",
+      "bytes": 2539,
+      "sha256": "43efa00f35544275f630eaf6efb6bb727b7e8217e2aa1cd1144ca8257037c2b4"
+    },
+    {
+      "path": "sillytavern/人物卡/json/cao_huachun.json",
+      "bytes": 2281,
+      "sha256": "9090b5dc496c1d95e166852308c92406a3f59fa332461763e1ced550efffd0ba"
+    },
+    {
+      "path": "sillytavern/人物卡/json/chen_qiyu.json",
+      "bytes": 2202,
+      "sha256": "48b6558c805208718f981315671597fd3cc86f238a386cfe392b344a744287fc"
+    },
+    {
+      "path": "sillytavern/人物卡/json/chongzhen.json",
+      "bytes": 2304,
+      "sha256": "a08d5f8f4881d8055451e8df79e522781e5b114659e1bd8b6b6b1b63df64a594"
+    },
+    {
+      "path": "sillytavern/人物卡/json/hong_chengchou.json",
+      "bytes": 2038,
+      "sha256": "e1f3eb7278cbdd32eb0e6cecec6c32798f429db82599c094189ca3f38fee4249"
+    },
+    {
+      "path": "sillytavern/人物卡/json/huang_taiji.json",
+      "bytes": 2249,
+      "sha256": "31d98075cca1cefb934961d4cc39560edf9d30b38cce6fa55c5eb19205db2f77"
+    },
+    {
+      "path": "sillytavern/人物卡/json/li_zicheng.json",
+      "bytes": 2206,
+      "sha256": "14bc581b39f666619ef0c8522b3c4e4e579c00cb05f14ceb403b9901d79e8de8"
+    },
+    {
+      "path": "sillytavern/人物卡/json/lu_xiangsheng.json",
+      "bytes": 2075,
+      "sha256": "baad563c5f99a77d382b508312a8ade1f98f6142f35a94b980e747db795192fd"
+    },
+    {
+      "path": "sillytavern/人物卡/json/qian_qianyi.json",
+      "bytes": 2143,
+      "sha256": "a482cd4e74fa1c960102cef282e0a2c8c4c484c5648ad2b40f05e21924fb7bdc"
+    },
+    {
+      "path": "sillytavern/人物卡/json/song_yingxing.json",
+      "bytes": 2294,
+      "sha256": "72dee2a6be9edd5bd8e884b15a87429858cd8920ff963124faa2f6c99a2d7045"
+    },
+    {
+      "path": "sillytavern/人物卡/json/sun_chengzong.json",
+      "bytes": 2163,
+      "sha256": "0c6734c0d2c9dbbe369f62405909501a7370cac4560cfd17bdabc3a7a6cc6c2f"
+    },
+    {
+      "path": "sillytavern/人物卡/json/sun_chuanting.json",
+      "bytes": 2102,
+      "sha256": "8ebe81610a6d97444398bf623be3d15ee78a4ff39b7448ab5f5f625ca7d023fe"
+    },
+    {
+      "path": "sillytavern/人物卡/json/sun_yuanhua.json",
+      "bytes": 2278,
+      "sha256": "c79d712fc6065cca000fa229b6f66364f8d34cf5a4c6d86bd8f1e08984345294"
+    },
+    {
+      "path": "sillytavern/人物卡/json/wen_tiren.json",
+      "bytes": 2157,
+      "sha256": "64f3d78ec53f662669cca6f92399a509ff4fc0f8c8bc4a4fe9ae621896ec8ba5"
+    },
+    {
+      "path": "sillytavern/人物卡/json/wu_sangui.json",
+      "bytes": 2276,
+      "sha256": "72447ce485e17c950efaf647a50a7ccbe3d6e28351e8512b583f71441bde86b1"
+    },
+    {
+      "path": "sillytavern/人物卡/json/xu_guangqi.json",
+      "bytes": 2341,
+      "sha256": "09022ebcb48b0202652d7c483702847903f764e95bcdebf68cded3da4ddd72d7"
+    },
+    {
+      "path": "sillytavern/人物卡/json/yang_sichang.json",
+      "bytes": 2316,
+      "sha256": "a09a9a7abe61d83c06660643de17361302f7aa8f9cd9cefb62e120bc5a64bb37"
+    },
+    {
+      "path": "sillytavern/人物卡/json/yuan_chonghuan.json",
+      "bytes": 2213,
+      "sha256": "77ee229edd5dba2a9d72e42feec62023bd573c665f56f947f2a9197e07ada29e"
+    },
+    {
+      "path": "sillytavern/人物卡/json/zhou_yanru.json",
+      "bytes": 2148,
+      "sha256": "20d8adee36074c6cd41242d1a72bb4d9cf343f8a3e7f751b46c05f98b4b8d5ea"
+    },
+    {
+      "path": "sillytavern/人物卡/json/zu_dashou.json",
+      "bytes": 2074,
+      "sha256": "9326c682007b1bd01b4e642b0d67865304ac45549ec09a4a7aa5891656984a12"
+    }
+  ],
+  "opening_save_files": [
+    {
+      "path": "saves/开局存档/1628_崇祯元年.json",
+      "bytes": 1735,
+      "sha256": "c6f93f6224008dc429a6dd800e64a3c3fcc08de37be448c4024e3d8212b4847a"
+    },
+    {
+      "path": "saves/开局存档/1629_崇祯二年.json",
+      "bytes": 1718,
+      "sha256": "02695bbcd3b05081c7622eb43dccbc61ca35dd3bc87adeb45d0d241d48924528"
+    },
+    {
+      "path": "saves/开局存档/1631_崇祯四年.json",
+      "bytes": 1665,
+      "sha256": "ef6f13862997b33c23d39c0563c514e5b1c7af2daf11f069a4fb5c2838fbe8a6"
+    },
+    {
+      "path": "saves/开局存档/1634_崇祯七年.json",
+      "bytes": 1679,
+      "sha256": "7a512e4e3fc6b7c7d3da6eb5eb4a3e32579d28543ebeb777ba66175f825b4874"
+    },
+    {
+      "path": "saves/开局存档/1637_崇祯十年.json",
+      "bytes": 1360,
+      "sha256": "a4c34dcb957e6f378f29b1043c92f3c734f7d19219992f134d1063432bc51806"
+    },
+    {
+      "path": "saves/开局存档/1641_崇祯十四年.json",
+      "bytes": 1339,
+      "sha256": "55bc5736e2970a634aeec307890cf57b5a3cf2bdebe31a7b676d0bf3813462fa"
+    }
+  ],
+  "build_command": "powershell -ExecutionPolicy Bypass -File scripts\\build_all.ps1",
+  "validation_command": "python scripts\\validate_project.py"
+}

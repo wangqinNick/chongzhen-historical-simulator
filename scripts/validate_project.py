@@ -20,6 +20,7 @@ REQUIRED_FILES = [
     "sillytavern/import/崇祯历史模拟器_完整Lorebook.json",
     "sillytavern/崇祯模拟器_Narrator角色卡草案.md",
     "sillytavern/崇祯模拟器_Narrator角色卡.json",
+    "sillytavern/package_manifest.json",
     "sillytavern/当前状态_AuthorNote模板.md",
     "sillytavern/开局剧本_AuthorNote合集.md",
     "sillytavern/快速卡/地区军队派系卡.md",
@@ -97,6 +98,15 @@ def main() -> None:
     narrator = load_json(ROOT / "sillytavern" / "崇祯模拟器_Narrator角色卡.json")
     if narrator.get("spec") != "chara_card_v2":
         fail("Narrator card is not chara_card_v2")
+
+    manifest = load_json(ROOT / "sillytavern" / "package_manifest.json")
+    counts = manifest.get("counts", {})
+    if counts.get("modules") != 41:
+        fail("manifest module count is incorrect")
+    if counts.get("character_json", 0) < 20:
+        fail("manifest character count is incorrect")
+    if counts.get("opening_saves", 0) < 6:
+        fail("manifest opening save count is incorrect")
 
     for path in opening_saves:
         data = load_json(path)
