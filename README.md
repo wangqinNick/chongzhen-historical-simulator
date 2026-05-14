@@ -26,6 +26,7 @@ zh-CN
 - project_instructions/：可复制到 ChatGPT Project Instructions 的总纲。
 - modules/：41 个核心规则模块。
 - sillytavern/：角色卡、Lorebook、Author's Note 和状态快照草案。
+- sillytavern/快速卡/：地区、军队、派系快速卡，可导入 Lorebook 或放入 Data Bank。
 - templates/：人物、地区、军队、政策、科技、日志等模板。
 - research/：史料、论文、检索关键词和可信度记录。
 - saves/：回合日志、状态快照、政策执行结果和存档。
@@ -101,6 +102,8 @@ zh-CN
 最省事：打开 `sillytavern/最终一键复制包_崇祯历史模拟器.md`，按文件内顺序复制角色卡、Author's Note、状态快照和 Data Bank 资料。
 
 推荐：在 SillyTavern 的 World Info / Lorebook 页面导入 `sillytavern/import/崇祯历史模拟器_完整Lorebook.json`，它包含核心规则、41 个模块条目和首批人物条目。
+
+快速局势：`sillytavern/快速卡/地区军队派系卡.md` 提供京师、辽东、陕西、河南、江南、山东登莱、宣大蓟镇、关宁军、京营、卫所、剿贼官军、东林士论、阉党清算、商帮海商等高频卡，适合放进 Data Bank 或导入快速卡 Lorebook。
 
 多角色：把 `sillytavern/人物卡/json/` 下的人物 JSON 逐个导入 SillyTavern，可用于 Group Chat；单 Narrator 模式则导入 `sillytavern/import/崇祯历史模拟器_人物Lorebook.json` 即可。
 
