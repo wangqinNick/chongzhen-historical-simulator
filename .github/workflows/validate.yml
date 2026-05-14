@@ -1,0 +1,27 @@
+name: Validate SillyTavern bundle
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build all generated artifacts
+        shell: pwsh
+        run: powershell -ExecutionPolicy Bypass -File scripts\build_all.ps1
+
+      - name: Validate project
+        shell: pwsh
+        run: python scripts\validate_project.py
+
