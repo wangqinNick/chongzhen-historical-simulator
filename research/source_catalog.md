@@ -29,6 +29,14 @@
 | 论坛、社区帖 | 收集问题意识、争议点、玩家体验和检索线索 | 不直接进入数值系统 |
 | SillyTavern 文档与社区 | 落地格式、Lorebook 触发、Author's Note、Data Bank/RAG | 功能规则必须查最新版 |
 
+## SillyTavern 落地资料
+
+| 名称 | 链接 | 项目采用结论 |
+|---|---|---|
+| SillyTavern World Info 文档 | https://docs.sillytavern.app/usage/core-concepts/worldinfo/ | World Info / Lorebook 用关键词动态插入规则；本项目使用窄触发词和分条规则 |
+| SillyTavern Data Bank (RAG) 文档 | https://docs.sillytavern.app/usage/core-concepts/data-bank/ | 长资料、论文摘要、史料摘录放 Data Bank/RAG，不塞入角色卡 |
+| SillyTavern Author's Note 文档 | https://docs.sillytavern.app/usage/core-concepts/authors-note/ | 当前年份、状态快照、风险和政策队列放 Author's Note |
+
 ## 待查清单
 
 - 《明史·食货志》中三饷原文位置与具体数额。
