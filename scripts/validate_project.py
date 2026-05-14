@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import sys
+import zipfile
 from pathlib import Path
 
 
@@ -118,6 +119,21 @@ def main() -> None:
 
     if (ROOT / "dist" / "chongzhen-sillytavern-bundle.zip").stat().st_size <= 0:
         fail("release bundle zip is empty")
+
+    zip_path = ROOT / "dist" / "chongzhen-sillytavern-bundle.zip"
+    with zipfile.ZipFile(zip_path) as archive:
+        names = set(archive.namelist())
+    required_zip_fragments = [
+        "sillytavern/import/",
+        "sillytavern/人物卡/json/",
+        "sillytavern/最终一键复制包_崇祯历史模拟器.md",
+        "saves/开局存档/",
+        "modules/module_index.json",
+        "README.md",
+    ]
+    for fragment in required_zip_fragments:
+        if not any(fragment in name for name in names):
+            fail(f"release bundle zip missing {fragment}")
 
     for path in opening_saves:
         data = load_json(path)

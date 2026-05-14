@@ -3,3 +3,4 @@ Thumbs.db
 *.tmp
 *.bak
 *.zip
+!dist/chongzhen-sillytavern-bundle.zip
