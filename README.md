@@ -136,3 +136,5 @@ zh-CN
 发布包：`dist/chongzhen-sillytavern-bundle.zip` 汇总了最终复制包、导入清单、Lorebook、Narrator、人物卡、快速卡、开局存档和资料登记表。
 
 发布说明：`docs/release_bundle_manifest.md` 记录发布包内容、重新生成命令和校验范围。
+
+版本说明：`RELEASE_NOTES.md` 汇总当前 v1-ready 包的入口文件、数量统计和最近增强。

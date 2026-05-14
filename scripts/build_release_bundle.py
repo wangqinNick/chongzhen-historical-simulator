@@ -15,6 +15,7 @@ ZIP_PATH = ROOT / "dist" / "chongzhen-sillytavern-bundle.zip"
 
 FILES = [
     "README.md",
+    "RELEASE_NOTES.md",
     "sillytavern/导入清单.md",
     "sillytavern/最终一键复制包_崇祯历史模拟器.md",
     "sillytavern/崇祯模拟器_Narrator角色卡.json",
