@@ -1,0 +1,515 @@
+{
+  "modules": [
+    {
+      "id": "01",
+      "title": "崇祯模拟器 总规则",
+      "category": "总规则",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "0无"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/01_崇祯模拟器_总规则.md"
+    },
+    {
+      "id": "02",
+      "title": "人物价值观数值系统",
+      "category": "人物系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "01"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/02_人物价值观数值系统.md"
+    },
+    {
+      "id": "03",
+      "title": "人物实际能力与成长系统",
+      "category": "人物系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "01",
+        "02"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/03_人物实际能力与成长系统.md"
+    },
+    {
+      "id": "04",
+      "title": "人物决策心理、声望、身份与信息系统",
+      "category": "人物系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "02",
+        "03"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/04_人物决策心理_声望_身份_信息系统.md"
+    },
+    {
+      "id": "05",
+      "title": "国家财政与税收系统",
+      "category": "国家与世界系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "01"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/05_国家财政与税收系统.md"
+    },
+    {
+      "id": "06",
+      "title": "军队、战役、后勤、装备系统",
+      "category": "国家与世界系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "05",
+        "32",
+        "33"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/06_军队_战役_后勤_装备系统.md"
+    },
+    {
+      "id": "07",
+      "title": "地方治理、省府州县控制系统",
+      "category": "国家与世界系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "01",
+        "41"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/07_地方治理_省府州县控制系统.md"
+    },
+    {
+      "id": "08",
+      "title": "灾荒、气候、瘟疫、民变系统",
+      "category": "国家与世界系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "05",
+        "07",
+        "19",
+        "20"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/08_灾荒_气候_瘟疫_民变系统.md"
+    },
+    {
+      "id": "09",
+      "title": "朝廷制度、官僚流程、政策执行系统",
+      "category": "国家与世界系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "01",
+        "31",
+        "34"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/09_朝廷制度_官僚流程_政策执行系统.md"
+    },
+    {
+      "id": "10",
+      "title": "派系、士绅、宗藩、商帮系统",
+      "category": "国家与世界系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "02",
+        "04",
+        "07"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/10_派系_士绅_宗藩_商帮系统.md"
+    },
+    {
+      "id": "11",
+      "title": "科技树、军工、西学、工业化系统",
+      "category": "国家与世界系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "25",
+        "26",
+        "31",
+        "32"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/11_科技树_军工_西学_工业化系统.md"
+    },
+    {
+      "id": "12",
+      "title": "外交、藩属、海贸、外夷系统",
+      "category": "国家与世界系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "35",
+        "39"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/12_外交_藩属_海贸_外夷系统.md"
+    },
+    {
+      "id": "13",
+      "title": "情报、舆论、锦衣卫、东厂系统",
+      "category": "国家与世界系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "04",
+        "20",
+        "23",
+        "39"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/13_情报_舆论_锦衣卫_东厂系统.md"
+    },
+    {
+      "id": "14",
+      "title": "经济市场、物价、白银流通系统",
+      "category": "国家与世界系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "05",
+        "08",
+        "26"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/14_经济市场_物价_白银流通系统.md"
+    },
+    {
+      "id": "15",
+      "title": "事件引擎、回合推进、因果链系统",
+      "category": "运行与元规则",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "05",
+        "06",
+        "08",
+        "10",
+        "35"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/15_事件引擎_回合推进_因果链系统.md"
+    },
+    {
+      "id": "16",
+      "title": "SillyTavern 轻量记忆维护、状态快照系统",
+      "category": "运行与元规则",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "01",
+        "40"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/16_SillyTavern轻量记忆维护_状态快照系统.md"
+    },
+    {
+      "id": "17",
+      "title": "诏书、政策、回合总结输出模板",
+      "category": "运行与元规则",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "01"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/17_诏书_政策_回合总结输出模板.md"
+    },
+    {
+      "id": "18",
+      "title": "史料库、检索关键词、可信度规则",
+      "category": "运行与元规则",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "01"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/18_史料库_检索关键词_可信度规则.md"
+    },
+    {
+      "id": "19",
+      "title": "人口、户籍、劳动力、兵源系统",
+      "category": "社会底盘系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "08",
+        "34"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/19_人口_户籍_劳动力_兵源系统.md"
+    },
+    {
+      "id": "20",
+      "title": "合法性、天命、皇权威望、政治信用系统",
+      "category": "社会底盘系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "05",
+        "08",
+        "13"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/20_合法性_天命_皇权威望_政治信用系统.md"
+    },
+    {
+      "id": "21",
+      "title": "地图空间、交通、距离、补给线系统",
+      "category": "社会底盘系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "06",
+        "08",
+        "26"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/21_地图空间_交通_距离_补给线系统.md"
+    },
+    {
+      "id": "22",
+      "title": "组织惯性、制度路径依赖、改革阻力系统",
+      "category": "社会底盘系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "09",
+        "34",
+        "37"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/22_组织惯性_制度路径依赖_改革阻力系统.md"
+    },
+    {
+      "id": "23",
+      "title": "法律、刑罚、司法、恐怖统治副作用系统",
+      "category": "社会底盘系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "13",
+        "20"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/23_法律_刑罚_司法_恐怖统治副作用系统.md"
+    },
+    {
+      "id": "24",
+      "title": "文化、宗教、意识形态、士论系统",
+      "category": "社会底盘系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "02",
+        "13",
+        "20"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/24_文化_宗教_意识形态_士论系统.md"
+    },
+    {
+      "id": "25",
+      "title": "人才培养、教育、科举、技术学校系统",
+      "category": "社会底盘系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "03",
+        "11"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/25_人才培养_教育_科举_技术学校系统.md"
+    },
+    {
+      "id": "26",
+      "title": "自然资源、生产力、产能、供应链系统",
+      "category": "社会底盘系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "05",
+        "21",
+        "31",
+        "33"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/26_自然资源_生产力_产能_供应链系统.md"
+    },
+    {
+      "id": "27",
+      "title": "胜利条件、失败条件、评分系统",
+      "category": "目标、裁判与玩家系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "01",
+        "28"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/27_胜利条件_失败条件_评分系统.md"
+    },
+    {
+      "id": "28",
+      "title": "AI 裁判、难度、随机性、作弊限制系统",
+      "category": "目标、裁判与玩家系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "01",
+        "37"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/28_AI裁判_难度_随机性_作弊限制系统.md"
+    },
+    {
+      "id": "29",
+      "title": "玩家角色、皇帝心理、决策成本系统",
+      "category": "目标、裁判与玩家系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "20",
+        "34"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/29_玩家角色_皇帝心理_决策成本系统.md"
+    },
+    {
+      "id": "30",
+      "title": "元规则、版本更新、数值平衡、回滚系统",
+      "category": "目标、裁判与玩家系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "37"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/30_元规则_版本更新_数值平衡_回滚系统.md"
+    },
+    {
+      "id": "31",
+      "title": "职位职责、自动执行、生产调度系统",
+      "category": "自动运行与落地系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "03",
+        "04",
+        "09",
+        "26"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/31_职位职责_自动执行_生产调度系统.md"
+    },
+    {
+      "id": "32",
+      "title": "装备、库存、损耗、维护系统",
+      "category": "自动运行与落地系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "06",
+        "11",
+        "26",
+        "33"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/32_装备_库存_损耗_维护系统.md"
+    },
+    {
+      "id": "33",
+      "title": "库存流量、资源守恒、账本系统",
+      "category": "自动运行与落地系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "05",
+        "26",
+        "32"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/33_库存流量_资源守恒_账本系统.md"
+    },
+    {
+      "id": "34",
+      "title": "任务队列、优先级、执行容量系统",
+      "category": "自动运行与落地系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "29",
+        "31"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/34_任务队列_优先级_执行容量系统.md"
+    },
+    {
+      "id": "35",
+      "title": "敌方 AI、外部势力、自动行动系统",
+      "category": "自动运行与落地系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "12",
+        "15",
+        "28"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/35_敌方AI_外部势力_自动行动系统.md"
+    },
+    {
+      "id": "36",
+      "title": "初始剧本、基准数值、开局盘点系统",
+      "category": "自动运行与落地系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "18",
+        "37"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/36_初始剧本_基准数值_开局盘点系统.md"
+    },
+    {
+      "id": "37",
+      "title": "数值校准、难度、现实性检查系统",
+      "category": "自动运行与落地系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "28",
+        "30"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/37_数值校准_难度_现实性检查系统.md"
+    },
+    {
+      "id": "38",
+      "title": "失败模式、风险事件、反噬库",
+      "category": "自动运行与落地系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "15",
+        "28"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/38_失败模式_风险事件_反噬库.md"
+    },
+    {
+      "id": "39",
+      "title": "玩家情报界面、奏报、误报系统",
+      "category": "自动运行与落地系统",
+      "priority": "P1",
+      "status": "v1-ready",
+      "depends_on": [
+        "13",
+        "35"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/39_玩家情报界面_奏报_误报系统.md"
+    },
+    {
+      "id": "40",
+      "title": "存档、回合日志、版本管理系统",
+      "category": "自动运行与落地系统",
+      "priority": "P2",
+      "status": "v1-ready",
+      "depends_on": [
+        "16",
+        "30"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/40_存档_回合日志_版本管理系统.md"
+    },
+    {
+      "id": "41",
+      "title": "官僚层级、地方官、基层执行抽象系统",
+      "category": "自动运行与落地系统",
+      "priority": "P0",
+      "status": "v1-ready",
+      "depends_on": [
+        "07",
+        "31"
+      ],
+      "path": "C:/Users/Nick/Documents/Codex/2026-05-14/chatgpt-41-sillytavern-world-info-author/modules/41_官僚层级_地方官_基层执行抽象系统.md"
+    }
+  ]
+}

@@ -26,6 +26,7 @@ REQUIRED_FILES = [
     "sillytavern/快速卡/地区军队派系卡.md",
     "modules/module_index.json",
     "modules/模块依赖图.md",
+    "dist/chongzhen-sillytavern-bundle.zip",
     "saves/开局存档/README.md",
 ]
 
@@ -114,6 +115,9 @@ def main() -> None:
     module_index = load_json(ROOT / "modules" / "module_index.json")
     if len(module_index.get("modules", [])) != 41:
         fail("module index should contain 41 modules")
+
+    if (ROOT / "dist" / "chongzhen-sillytavern-bundle.zip").stat().st_size <= 0:
+        fail("release bundle zip is empty")
 
     for path in opening_saves:
         data = load_json(path)
