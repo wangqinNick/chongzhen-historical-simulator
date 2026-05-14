@@ -22,6 +22,7 @@ REQUIRED_FILES = [
     "sillytavern/崇祯模拟器_Narrator角色卡草案.md",
     "sillytavern/崇祯模拟器_Narrator角色卡.json",
     "sillytavern/package_manifest.json",
+    "sillytavern/玩家指令模板.md",
     "sillytavern/当前状态_AuthorNote模板.md",
     "sillytavern/开局剧本_AuthorNote合集.md",
     "sillytavern/快速卡/地区军队派系卡.md",

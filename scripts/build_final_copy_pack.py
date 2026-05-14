@@ -48,6 +48,7 @@ def main() -> None:
     narrator = read("sillytavern/崇祯模拟器_Narrator角色卡草案.md")
     author_note = read("sillytavern/当前状态_AuthorNote模板.md")
     scenario_notes = read("sillytavern/开局剧本_AuthorNote合集.md")
+    player_prompts = read("sillytavern/玩家指令模板.md")
     snapshot = read("sillytavern/轻量状态快照模板.md")
     core_lore = read("sillytavern/核心规则_Lorebook草案.md")
     quick_cards = quick_cards_text()
@@ -108,6 +109,14 @@ def main() -> None:
 
 ~~~~text
 {scenario_notes}
+~~~~
+
+## 02C 玩家指令模板
+
+这些模板可直接复制到 SillyTavern 聊天框，用于开局盘点、标准诏书、回合结算、严格模式和切换开局。
+
+~~~~text
+{player_prompts}
 ~~~~
 
 ## 03 核心 Lorebook 手工条目
