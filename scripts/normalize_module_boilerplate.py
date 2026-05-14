@@ -31,7 +31,7 @@ PLACEHOLDER_RULE_ONLY = re.compile(
     re.MULTILINE,
 )
 
-REPLACEMENT = """### 运行规则
+REPLACEMENT = """### 通用裁判规则
 
 - 只在本节关键词、相关政策、奏报、战报、账册或状态快照出现时触发。
 - 判定时先读取当前时间、地区状态、财政压力、执行人、交通、资源、合法性和敌方行动。

@@ -200,7 +200,7 @@ Get-ChildItem -LiteralPath (Join-Path $rootPath "modules") -Filter "*.md" | ForE
         Get-SectionBody $moduleTitle $m.Groups[1].Value
     })
 
-    $text = [regex]::Replace($text, '(?ms)^## 待办\r?\n\r?\n- 补充史实来源与可信度标记。\r?\n- 补充数值区间、判定阈值和失败模式。\r?\n- 拆分可直接导入 SillyTavern 的 Lorebook 条目。\r?\n?', "## 完成状态`r`n`r`n- 本模块已从占位骨架扩写为可运行规则。`r`n- 后续新增史料时，应更新 `research/baseline_data_register.md` 并在本模块补充来源。`r`n")
+    $text = [regex]::Replace($text, '(?ms)^## 待办\r?\n\r?\n- 补充史实来源与可信度标记。\r?\n- 补充数值区间、判定阈值和失败模式。\r?\n- 拆分可直接导入 SillyTavern 的 Lorebook 条目。\r?\n?', "## 完成状态`r`n`r`n- 本模块已完成可运行规则初版。`r`n- 后续新增史料时，应更新 `research/baseline_data_register.md` 并在本模块补充来源。`r`n")
 
     Write-Utf8NoBom $path $text
 }

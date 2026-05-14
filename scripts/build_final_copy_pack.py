@@ -25,7 +25,7 @@ def all_modules_text() -> str:
 def all_character_cards_text() -> str:
     char_dir = ROOT / "sillytavern" / "人物卡" / "markdown"
     if not char_dir.exists():
-        return "尚未生成具体人物卡。"
+        return "未检测到人物卡文件；请先运行 scripts/generate_character_cards.py。"
     chunks: list[str] = []
     for path in sorted(char_dir.glob("*.md"), key=lambda p: p.name):
         chunks.append(f"\n\n===== {path.name} =====\n\n{path.read_text(encoding='utf-8').strip()}")
