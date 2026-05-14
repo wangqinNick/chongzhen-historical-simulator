@@ -97,6 +97,10 @@ zh-CN
 
 ## 快速使用
 
-最省事：打开 `sillytavern/一键复制版_崇祯模拟器.md`，复制“整段复制版”到 SillyTavern 角色卡 Description / System Prompt 类字段，再复制 Author's Note 初始状态到当前聊天的 Author's Note。
+最省事：打开 `sillytavern/最终一键复制包_崇祯历史模拟器.md`，按文件内顺序复制角色卡、Author's Note、状态快照和 Data Bank 资料。
+
+推荐：在 SillyTavern 的 World Info / Lorebook 页面导入 `sillytavern/import/崇祯历史模拟器_全模块Lorebook.json`，它包含核心规则和 41 个模块条目。
+
+轻量：打开 `sillytavern/一键复制版_崇祯模拟器.md`，复制“整段复制版”到 SillyTavern 角色卡 Description / System Prompt 类字段，再复制 Author's Note 初始状态到当前聊天的 Author's Note。
 
 更稳：角色卡使用 `崇祯模拟器_Narrator角色卡草案.md`，World Info / Lorebook 使用 `核心规则_Lorebook草案.md` 的分条触发词，当前状态使用 `当前状态_AuthorNote模板.md`。
