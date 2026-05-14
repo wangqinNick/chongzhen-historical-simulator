@@ -8,6 +8,7 @@
 |---|---|---|---|---|
 | 《明史》 | 户口、田亩、屯田、食货、兵制、流贼、人物传记 | D-001、D-002；模块 05、36 | https://www.shicimingju.com/book/mingshi/77.html | 官修史书，需注意清修明史的政治视角 |
 | 《春明梦余录》 | 北京制度、户部、赋役、旧饷与三饷口径 | D-004 至 D-006；模块 05 | https://www.shidianguji.com/book/7515312884693925899/chapter/1l8aw4fnhchei | 清初汇编，适合制度和额数索引 |
+| 《明史》卷七十九《食货三》 | 漕运、仓库、兑运加耗、漕粮定额 | D-016、D-017；模块 21 | https://skqs.dazhishi.com/show_waxyqlzmdq.html | 漕运和补给线核心史料 |
 | 《崇祯实录》 | 崇祯朝逐年事件、军费、灾荒、内帑、诏令 | 待接入 | 待定位稳定文本 | 后续复核三饷与灾荒年份 |
 | 地方志 | 县域灾荒、粮价、疫病、民变、地方官 | 待接入 | 识典古籍、中国方志库等 | 县域数据优先来源 |
 
@@ -20,6 +21,8 @@
 | 河南崇祯旱灾 | 苏新留、邢祎，2020，《中州学刊》 | 河南灾荒年份、范围、社会影响 | 已进入 D-010、D-011 |
 | 财政与赋役 | Ray Huang、顾诚、陈支平等方向 | 三饷、财政信用、白银化 | 待逐篇核查 |
 | 军事崩溃 | Kenneth Swope、顾诚等方向 | 边军、剿贼、将领、军饷 | 待逐篇核查 |
+| 晚明粮价 | Timothy Brook, The Price of Collapse | 粮价异常、气候冲击和市场压力 | 已用于 D-018 |
+| 白银货币化 | Tianwei Chang, 2024, arXiv | 白银供需、税银化与社会分配 | 已用于 D-019 |
 
 ## 网络资料
 
@@ -36,6 +39,13 @@
 | SillyTavern World Info 文档 | https://docs.sillytavern.app/usage/core-concepts/worldinfo/ | World Info / Lorebook 用关键词动态插入规则；本项目使用窄触发词和分条规则 |
 | SillyTavern Data Bank (RAG) 文档 | https://docs.sillytavern.app/usage/core-concepts/data-bank/ | 长资料、论文摘要、史料摘录放 Data Bank/RAG，不塞入角色卡 |
 | SillyTavern Author's Note 文档 | https://docs.sillytavern.app/usage/core-concepts/authors-note/ | 当前年份、状态快照、风险和政策队列放 Author's Note |
+
+## 权威网络资料
+
+| 名称 | 链接 | 项目采用结论 |
+|---|---|---|
+| 故宫博物院“卫所制度” | https://www.dpm.org.cn/court/system/236399.html | 用于卫所编制、军户屯田和明中叶后卫所衰败的基础判断 |
+| 明清漕运的经济账 | https://www.gzszx.gov.cn/wstd/wsmb/32884.shtml | 用于漕运 400 万石定额、运河供应京师和漕运腐败/附费的二级佐证 |
 
 ## 待查清单
 
