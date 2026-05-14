@@ -15,6 +15,7 @@ OUT_PATH = ROOT / "sillytavern" / "import" / "崇祯历史模拟器_全模块Lor
 COMPLETE_OUT_PATH = ROOT / "sillytavern" / "import" / "崇祯历史模拟器_完整Lorebook.json"
 CHARACTER_LOREBOOK_PATH = ROOT / "sillytavern" / "import" / "崇祯历史模拟器_人物Lorebook.json"
 QUICK_LOREBOOK_PATH = ROOT / "sillytavern" / "import" / "崇祯历史模拟器_快速卡Lorebook.json"
+SCENARIO_LOREBOOK_PATH = ROOT / "sillytavern" / "import" / "崇祯历史模拟器_开局剧本Lorebook.json"
 MODULE_DIR = ROOT / "modules"
 
 
@@ -108,10 +109,10 @@ def main() -> None:
     OUT_PATH.write_text(json.dumps(OrderedDict(entries=entries), ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {len(entries)} entries to {OUT_PATH}")
 
-    if QUICK_LOREBOOK_PATH.exists() or CHARACTER_LOREBOOK_PATH.exists():
+    if QUICK_LOREBOOK_PATH.exists() or SCENARIO_LOREBOOK_PATH.exists() or CHARACTER_LOREBOOK_PATH.exists():
         complete_entries: OrderedDict[str, OrderedDict] = OrderedDict(entries)
         next_uid = max(int(key) for key in complete_entries) + 1
-        for lorebook_path in (QUICK_LOREBOOK_PATH, CHARACTER_LOREBOOK_PATH):
+        for lorebook_path in (QUICK_LOREBOOK_PATH, SCENARIO_LOREBOOK_PATH, CHARACTER_LOREBOOK_PATH):
             if not lorebook_path.exists():
                 continue
             lorebook = json.loads(lorebook_path.read_text(encoding="utf-8"), object_pairs_hook=OrderedDict)

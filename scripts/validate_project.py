@@ -16,8 +16,10 @@ REQUIRED_FILES = [
     "sillytavern/import/崇祯历史模拟器_全模块Lorebook.json",
     "sillytavern/import/崇祯历史模拟器_人物Lorebook.json",
     "sillytavern/import/崇祯历史模拟器_快速卡Lorebook.json",
+    "sillytavern/import/崇祯历史模拟器_开局剧本Lorebook.json",
     "sillytavern/import/崇祯历史模拟器_完整Lorebook.json",
     "sillytavern/崇祯模拟器_Narrator角色卡草案.md",
+    "sillytavern/崇祯模拟器_Narrator角色卡.json",
     "sillytavern/当前状态_AuthorNote模板.md",
     "sillytavern/开局剧本_AuthorNote合集.md",
     "sillytavern/快速卡/地区军队派系卡.md",
@@ -74,6 +76,7 @@ def main() -> None:
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_全模块Lorebook.json",
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_人物Lorebook.json",
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_快速卡Lorebook.json",
+        ROOT / "sillytavern" / "import" / "崇祯历史模拟器_开局剧本Lorebook.json",
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_完整Lorebook.json",
     ]
     for path in lorebooks:
@@ -83,8 +86,12 @@ def main() -> None:
             fail(f"{path} has no entries")
 
     complete_entries = load_json(ROOT / "sillytavern" / "import" / "崇祯历史模拟器_完整Lorebook.json")["entries"]
-    if len(complete_entries) < 90:
-        fail(f"complete lorebook should have at least 90 entries, found {len(complete_entries)}")
+    if len(complete_entries) < 96:
+        fail(f"complete lorebook should have at least 96 entries, found {len(complete_entries)}")
+
+    narrator = load_json(ROOT / "sillytavern" / "崇祯模拟器_Narrator角色卡.json")
+    if narrator.get("spec") != "chara_card_v2":
+        fail("Narrator card is not chara_card_v2")
 
     scan_files = modules + [
         ROOT / "README.md",

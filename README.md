@@ -91,6 +91,7 @@ zh-CN
 ## SillyTavern 文件
 
 - [崇祯模拟器_Narrator角色卡草案](sillytavern/崇祯模拟器_Narrator角色卡草案.md)
+- [崇祯模拟器_Narrator角色卡 JSON](sillytavern/崇祯模拟器_Narrator角色卡.json)
 - [核心规则_Lorebook草案](sillytavern/核心规则_Lorebook草案.md)
 - [当前状态_AuthorNote模板](sillytavern/当前状态_AuthorNote模板.md)
 - [轻量状态快照模板](sillytavern/轻量状态快照模板.md)
@@ -102,7 +103,7 @@ zh-CN
 
 最省事：打开 `sillytavern/最终一键复制包_崇祯历史模拟器.md`，按文件内顺序复制角色卡、Author's Note、状态快照和 Data Bank 资料。
 
-推荐：在 SillyTavern 的 World Info / Lorebook 页面导入 `sillytavern/import/崇祯历史模拟器_完整Lorebook.json`，它包含核心规则、41 个模块条目和首批人物条目。
+推荐：在 SillyTavern 的 World Info / Lorebook 页面导入 `sillytavern/import/崇祯历史模拟器_完整Lorebook.json`，它包含核心规则、41 个模块条目、快速卡、开局剧本和首批人物条目。
 
 快速局势：`sillytavern/快速卡/地区军队派系卡.md` 提供京师、辽东、陕西、河南、江南、山东登莱、宣大蓟镇、关宁军、京营、卫所、剿贼官军、东林士论、阉党清算、商帮海商等高频卡，适合放进 Data Bank 或导入快速卡 Lorebook。
 

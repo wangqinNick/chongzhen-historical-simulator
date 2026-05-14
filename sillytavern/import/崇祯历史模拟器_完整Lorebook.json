@@ -2559,6 +2559,228 @@
     "70": {
       "uid": 70,
       "key": [
+        "崇祯元年 / 1628 / 春",
+        "1628",
+        "崇祯元年",
+        "开局剧本",
+        "Author Note",
+        "状态快照"
+      ],
+      "keysecondary": [],
+      "comment": "开局剧本 崇祯元年 / 1628 / 春",
+      "content": "【开局剧本：崇祯元年 / 1628 / 春】\n【当前时间】崇祯元年 / 1628 年 / 春\n【剧本定位】新君继位后的危机承接局，不是白纸开局。\n【国库压力】高：辽东军费长期挤压，新增政策必须说明银两来源。\n【皇权威望】中高但快速消耗。\n【后金威胁】极高。\n【灾荒民变】陕西高；河南中高；北直隶中。\n【关键人物】袁崇焕/辽东；祖大寿/关宁军；周延儒、温体仁、钱谦益/朝堂与士论。\n【关键基准】官方户籍参考：万历六年户 10,621,436、口 60,692,856；实际人口采用值约 95-105 百万人；旧饷约 4,968,056 两；辽饷约 9,134,880 余两。\n【裁判提醒】政策不得默认成功；每回合只更新影响未来决策的状态。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 761,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "开局剧本",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "71": {
+      "uid": 71,
+      "key": [
+        "崇祯二年 / 1629 / 秋冬前",
+        "1629",
+        "崇祯二年",
+        "开局剧本",
+        "Author Note",
+        "状态快照"
+      ],
+      "keysecondary": [],
+      "comment": "开局剧本 崇祯二年 / 1629 / 秋冬前",
+      "content": "【开局剧本：崇祯二年 / 1629 / 秋冬前】\n【当前时间】崇祯二年 / 1629 年 / 秋\n【剧本定位】清算魏党后的政治重组期，己巳之变迫近。\n【朝堂压力】高：逆案清算提高道德合法性，也制造官僚恐惧和人才断层。\n【京畿威胁】极高：后金可能绕过山海关，由蒙古、喜峰口等方向入犯京畿。\n【辽东信任】高压：袁崇焕仍是辽东核心，但皇帝期待、朝议攻击和边防现实冲突加深。\n【关宁军稳定】中低：逮捕或处死辽东主将会触发祖大寿/关宁军反应。\n【重点检查】蓟镇、宣大、京营、勤王兵、粮饷、喜峰口/遵化/北京防线。\n【裁判提醒】京畿被兵后，皇帝猜疑值、急切求效和问责倾向提高。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 762,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "开局剧本",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "72": {
+      "uid": 72,
+      "key": [
+        "崇祯四年 / 1631 / 夏秋",
+        "1631",
+        "崇祯四年",
+        "开局剧本",
+        "Author Note",
+        "状态快照"
+      ],
+      "keysecondary": [],
+      "comment": "开局剧本 崇祯四年 / 1631 / 夏秋",
+      "content": "【开局剧本：崇祯四年 / 1631 / 夏秋】\n【当前时间】崇祯四年 / 1631 年 / 夏秋\n【剧本定位】大凌河、辽饷和陕西民变并发的高压局。\n【辽东战役】极高：祖大寿筑大凌河城，后金围攻风险上升。\n【财政压力】极高：辽饷加重，田课一分二厘口径待复核但可作高压参考。\n【关宁军风险】高：筑城、援军、粮道、炮车、火药和将领信任同时承压。\n【陕西民变】高：主抚与主剿路线冲突，洪承畴等主剿力量抬头。\n【重点检查】大凌河补给、锦州/宁远/山海关防线、辽饷征收反弹、陕西流寇。\n【裁判提醒】有银不等于有粮，有兵不等于可战，援军没有粮道不得默认抵达。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 763,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "开局剧本",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "73": {
+      "uid": 73,
+      "key": [
+        "崇祯七年 / 1634 / 春夏",
+        "1634",
+        "崇祯七年",
+        "开局剧本",
+        "Author Note",
+        "状态快照"
+      ],
+      "keysecondary": [],
+      "comment": "开局剧本 崇祯七年 / 1634 / 春夏",
+      "content": "【开局剧本：崇祯七年 / 1634 / 春夏】\n【当前时间】崇祯七年 / 1634 年 / 春夏\n【剧本定位】农民军从陕西、山西压力向河南扩展，剿抚路线进入关键分岔。\n【农民军压力】极高：车箱峡、招抚、杀降和入河南都会影响后续敌方 AI。\n【河南风险】高：灾荒、流民、交通节点和粮价联动。\n【财政压力】极高：剿贼、边防、赈灾、欠饷并发。\n【朝廷信用】脆弱：失信招抚可短期见效，但会提高后续投降难度。\n【重点检查】陕西、山西、河南、湖广北部；高迎祥、李自成、张献忠等流动势力。\n【裁判提醒】只剿不赈不会真正降低民变，只会改变流民军移动方向和组织化速度。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 764,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "开局剧本",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "74": {
+      "uid": 74,
+      "key": [
+        "崇祯十年 / 1637 / 春",
+        "1637",
+        "崇祯十年",
+        "开局剧本",
+        "Author Note",
+        "状态快照"
+      ],
+      "keysecondary": [],
+      "comment": "开局剧本 崇祯十年 / 1637 / 春",
+      "content": "【开局剧本：崇祯十年 / 1637 / 春】\n【当前时间】崇祯十年 / 1637 年 / 春\n【剧本定位】内外战争与大旱高压期开始。\n【剿饷压力】约 280 万两级别，仍需向《明史》与奏疏复核。\n【河南灾荒】极高：1637-1641 连续大旱进入核心阶段。\n【全国气候】高到极高：1637-1643 可作为晚明大旱核心阶段。\n【流民军压力】极高。\n【财政可持续性】极低：辽饷、剿饷、赈灾、军费并发。\n【裁判提醒】任何大规模军事行动都必须检查军饷、粮道、地方配合和灾区状态。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 765,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "开局剧本",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "75": {
+      "uid": 75,
+      "key": [
+        "崇祯十四年 / 1641 / 春",
+        "1641",
+        "崇祯十四年",
+        "开局剧本",
+        "Author Note",
+        "状态快照"
+      ],
+      "keysecondary": [],
+      "comment": "开局剧本 崇祯十四年 / 1641 / 春",
+      "content": "【开局剧本：崇祯十四年 / 1641 / 春】\n【当前时间】崇祯十四年 / 1641 年 / 春\n【剧本定位】大旱、疫病、内战和边防危机叠加的极难开局。\n【河南灾荒】5 崩坏边缘：崇祯十年至十四年连续大旱，1640 年涉及河南 84 县。\n【全国气候】极高：晚明大旱核心阶段。\n【练饷压力】约 730 万两级别。\n【中央财政信用】极低。\n【地方控制】多地低：灾荒、流民、军饷和官僚执行失灵联动。\n【裁判提醒】这是救火局，不是从容改革局；粮食比银两更紧要。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 766,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "开局剧本",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "76": {
+      "uid": 76,
+      "key": [
         "崇祯",
         "朱由检",
         "陛下",
@@ -2593,8 +2815,8 @@
       "automationId": "",
       "role": null
     },
-    "71": {
-      "uid": 71,
+    "77": {
+      "uid": 77,
       "key": [
         "袁崇焕",
         "袁督师",
@@ -2630,8 +2852,8 @@
       "automationId": "",
       "role": null
     },
-    "72": {
-      "uid": 72,
+    "78": {
+      "uid": 78,
       "key": [
         "祖大寿",
         "关宁军",
@@ -2666,8 +2888,8 @@
       "automationId": "",
       "role": null
     },
-    "73": {
-      "uid": 73,
+    "79": {
+      "uid": 79,
       "key": [
         "周延儒",
         "阁臣",
@@ -2702,8 +2924,8 @@
       "automationId": "",
       "role": null
     },
-    "74": {
-      "uid": 74,
+    "80": {
+      "uid": 80,
       "key": [
         "温体仁",
         "反东林",
@@ -2738,8 +2960,8 @@
       "automationId": "",
       "role": null
     },
-    "75": {
-      "uid": 75,
+    "81": {
+      "uid": 81,
       "key": [
         "钱谦益",
         "牧斋",
@@ -2775,8 +2997,8 @@
       "automationId": "",
       "role": null
     },
-    "76": {
-      "uid": 76,
+    "82": {
+      "uid": 82,
       "key": [
         "孙承宗",
         "辽东老臣",
@@ -2811,8 +3033,8 @@
       "automationId": "",
       "role": null
     },
-    "77": {
-      "uid": 77,
+    "83": {
+      "uid": 83,
       "key": [
         "洪承畴",
         "洪督师",
@@ -2847,8 +3069,8 @@
       "automationId": "",
       "role": null
     },
-    "78": {
-      "uid": 78,
+    "84": {
+      "uid": 84,
       "key": [
         "卢象升",
         "天雄军",
@@ -2883,8 +3105,8 @@
       "automationId": "",
       "role": null
     },
-    "79": {
-      "uid": 79,
+    "85": {
+      "uid": 85,
       "key": [
         "孙传庭",
         "陕西",
@@ -2919,8 +3141,8 @@
       "automationId": "",
       "role": null
     },
-    "80": {
-      "uid": 80,
+    "86": {
+      "uid": 86,
       "key": [
         "毕自严",
         "户部尚书",
@@ -2956,8 +3178,8 @@
       "automationId": "",
       "role": null
     },
-    "81": {
-      "uid": 81,
+    "87": {
+      "uid": 87,
       "key": [
         "杨嗣昌",
         "剿饷",
@@ -2993,8 +3215,8 @@
       "automationId": "",
       "role": null
     },
-    "82": {
-      "uid": 82,
+    "88": {
+      "uid": 88,
       "key": [
         "陈奇瑜",
         "车箱峡",
@@ -3029,8 +3251,8 @@
       "automationId": "",
       "role": null
     },
-    "83": {
-      "uid": 83,
+    "89": {
+      "uid": 89,
       "key": [
         "徐光启",
         "西学",
@@ -3066,8 +3288,8 @@
       "automationId": "",
       "role": null
     },
-    "84": {
-      "uid": 84,
+    "90": {
+      "uid": 90,
       "key": [
         "孙元化",
         "登莱",
@@ -3103,8 +3325,8 @@
       "automationId": "",
       "role": null
     },
-    "85": {
-      "uid": 85,
+    "91": {
+      "uid": 91,
       "key": [
         "宋应星",
         "天工开物",
@@ -3140,8 +3362,8 @@
       "automationId": "",
       "role": null
     },
-    "86": {
-      "uid": 86,
+    "92": {
+      "uid": 92,
       "key": [
         "曹化淳",
         "宦官",
@@ -3177,8 +3399,8 @@
       "automationId": "",
       "role": null
     },
-    "87": {
-      "uid": 87,
+    "93": {
+      "uid": 93,
       "key": [
         "吴三桂",
         "山海关",
@@ -3214,8 +3436,8 @@
       "automationId": "",
       "role": null
     },
-    "88": {
-      "uid": 88,
+    "94": {
+      "uid": 94,
       "key": [
         "李自成",
         "闯王",
@@ -3251,8 +3473,8 @@
       "automationId": "",
       "role": null
     },
-    "89": {
-      "uid": 89,
+    "95": {
+      "uid": 95,
       "key": [
         "皇太极",
         "后金",
