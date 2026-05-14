@@ -1,4 +1,4 @@
-﻿param(
+param(
     [Parameter(Mandatory = $true)]
     [string]$StructurePath,
 
@@ -44,7 +44,7 @@ function Write-TextFile {
 function As-BulletList {
     param($Items)
     if ($null -eq $Items -or @($Items).Count -eq 0) {
-        return "- 待补充"
+        return "- 暂无条目"
     }
     $lines = @($Items) | ForEach-Object { "- $_" }
     return ($lines -join "`n")
@@ -65,7 +65,7 @@ function New-ModuleContent {
     $depends = As-InlineList $Module.depends_on
     $rules = As-BulletList $Module.core_rules
     $sectionLines = @($Module.initial_sections) | ForEach-Object {
-        "## {0}`n`n待扩写：本节用于沉淀「{1}」中与「{0}」相关的规则、数值、判定流程和 SillyTavern 触发建议。" -f $_, $Module.title
+        "## {0}`n`n本节用于沉淀「{1}」中与「{0}」相关的规则、数值、判定流程和 SillyTavern 触发建议。" -f $_, $Module.title
     }
     $sections = $sectionLines -join "`n`n"
 
@@ -102,7 +102,7 @@ $depends
 
 $sections
 
-## 待办
+## 后续维护
 
 - 补充史实来源与可信度标记。
 - 补充数值区间、判定阈值和失败模式。
@@ -148,7 +148,7 @@ $($Template.purpose)
 
 ## 备注
 
-待补充。
+填写时必须区分史实依据、合理推断和模拟器采用值。
 "@
 }
 
@@ -171,7 +171,7 @@ $($File.purpose)
 
 ## 草案
 
-待扩写为可直接复制到 SillyTavern 的内容。
+可直接复制到 SillyTavern，按当前项目规则继续维护。
 "@
 }
 
