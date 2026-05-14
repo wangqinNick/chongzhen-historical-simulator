@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CHAR_DIR = ROOT / "sillytavern" / "人物卡"
 IMPORT_DIR = ROOT / "sillytavern" / "import"
+EXTRA_PEOPLE_PATH = ROOT / "data" / "characters_extra.json"
 
 
 PEOPLE = [
@@ -355,6 +356,10 @@ PEOPLE = [
         "triggers": ["皇太极", "后金", "建州", "清太宗", "己巳之变", "大凌河"],
     },
 ]
+
+
+if EXTRA_PEOPLE_PATH.exists():
+    PEOPLE.extend(json.loads(EXTRA_PEOPLE_PATH.read_text(encoding="utf-8")))
 
 
 def character_json(person: dict) -> OrderedDict:

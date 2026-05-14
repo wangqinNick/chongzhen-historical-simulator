@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-15T00:31:50",
+  "generated_at": "2026-05-15T00:34:56",
   "package": "chongzhen-historical-simulator",
   "status": "v1-ready",
   "counts": {
     "modules": 41,
-    "character_json": 20,
-    "character_markdown": 20,
+    "character_json": 32,
+    "character_markdown": 32,
     "opening_saves": 6,
     "lorebooks": {
-      "崇祯历史模拟器_人物Lorebook.json": 20,
+      "崇祯历史模拟器_人物Lorebook.json": 32,
       "崇祯历史模拟器_全模块Lorebook.json": 56,
-      "崇祯历史模拟器_完整Lorebook.json": 96,
+      "崇祯历史模拟器_完整Lorebook.json": 108,
       "崇祯历史模拟器_开局剧本Lorebook.json": 6,
       "崇祯历史模拟器_快速卡Lorebook.json": 14,
       "崇祯历史模拟器_核心Lorebook.json": 15
@@ -24,8 +24,8 @@
     },
     {
       "path": "sillytavern/最终一键复制包_崇祯历史模拟器.md",
-      "bytes": 327483,
-      "sha256": "3d6b0535255c9e1de95636702efd9149a237e81fa4263223cbb75767de07766c"
+      "bytes": 347296,
+      "sha256": "a74484e23936330e26149633a3f47f7acb8e78de94e9c1355c26aaec230d51ad"
     },
     {
       "path": "sillytavern/导入清单.md",
@@ -44,15 +44,15 @@
     },
     {
       "path": "research/source_catalog.md",
-      "bytes": 6683,
-      "sha256": "7a8a5a05566fcd350b9271530dc079ac26342d513ca79b5302346cdd3e7c4baf"
+      "bytes": 8919,
+      "sha256": "3ebe04947e3bbf574271f5083e628050d65d7f5e9bab5e33702222a794558cab"
     }
   ],
   "lorebook_files": [
     {
       "path": "sillytavern/import/崇祯历史模拟器_人物Lorebook.json",
-      "bytes": 33615,
-      "sha256": "e3f9fd5de9d7d5ad3135abd6c990f4646cf5527e6c8673461934427e3f6cfb4f"
+      "bytes": 55344,
+      "sha256": "8b825125522c6ee74c2871ab4f9494687ae68abeb2907829b95b3fbcef5ca7a2"
     },
     {
       "path": "sillytavern/import/崇祯历史模拟器_全模块Lorebook.json",
@@ -61,8 +61,8 @@
     },
     {
       "path": "sillytavern/import/崇祯历史模拟器_完整Lorebook.json",
-      "bytes": 164147,
-      "sha256": "ecfa9de2c715ebe7f89f0dd803a4607116e49c97f09c430d1a4e9716df87d879"
+      "bytes": 185892,
+      "sha256": "56c3f1d61c234470446ffd4549f7595dd1a23d008bc59b6cd6f03d5eb0ac768c"
     },
     {
       "path": "sillytavern/import/崇祯历史模拟器_开局剧本Lorebook.json",
@@ -92,6 +92,11 @@
       "sha256": "9090b5dc496c1d95e166852308c92406a3f59fa332461763e1ced550efffd0ba"
     },
     {
+      "path": "sillytavern/人物卡/json/cao_wenzhao.json",
+      "bytes": 2320,
+      "sha256": "44813f0077d7848f437c2f296d475101335b7d62a1f613f7bd9b8142b695ae3c"
+    },
+    {
       "path": "sillytavern/人物卡/json/chen_qiyu.json",
       "bytes": 2202,
       "sha256": "48b6558c805208718f981315671597fd3cc86f238a386cfe392b344a744287fc"
@@ -100,6 +105,21 @@
       "path": "sillytavern/人物卡/json/chongzhen.json",
       "bytes": 2304,
       "sha256": "a08d5f8f4881d8055451e8df79e522781e5b114659e1bd8b6b6b1b63df64a594"
+    },
+    {
+      "path": "sillytavern/人物卡/json/dorgon.json",
+      "bytes": 2377,
+      "sha256": "1957803aace66c23e0b7df8ae08568b0fbd5f677c74671ebc3056ed5f67f1e23"
+    },
+    {
+      "path": "sillytavern/人物卡/json/fan_wencheng.json",
+      "bytes": 2517,
+      "sha256": "6b59539d4292f731331ed6d255044ae2d77c4bd00f3fbc91f0bb9b180270ba71"
+    },
+    {
+      "path": "sillytavern/人物卡/json/gao_yingxiang.json",
+      "bytes": 2404,
+      "sha256": "2fc453934da85df99ee6131a1a4676eb637db64349ed244e81a0a832b6de9abc"
     },
     {
       "path": "sillytavern/人物卡/json/hong_chengchou.json",
@@ -112,6 +132,16 @@
       "sha256": "31d98075cca1cefb934961d4cc39560edf9d30b38cce6fa55c5eb19205db2f77"
     },
     {
+      "path": "sillytavern/人物卡/json/kong_youde.json",
+      "bytes": 2411,
+      "sha256": "dc355de687a53169008cbc579bf4c3f68e3687fbe1dded78dc39dace459c3163"
+    },
+    {
+      "path": "sillytavern/人物卡/json/li_banghua.json",
+      "bytes": 2368,
+      "sha256": "dece1e51629fd85c21e4834dc7c4f2f156df984a4db96820f767ac9956d50ba7"
+    },
+    {
       "path": "sillytavern/人物卡/json/li_zicheng.json",
       "bytes": 2206,
       "sha256": "14bc581b39f666619ef0c8522b3c4e4e579c00cb05f14ceb403b9901d79e8de8"
@@ -122,9 +152,24 @@
       "sha256": "baad563c5f99a77d382b508312a8ade1f98f6142f35a94b980e747db795192fd"
     },
     {
+      "path": "sillytavern/人物卡/json/mao_wenlong.json",
+      "bytes": 2416,
+      "sha256": "7266bc2826ac366223e8dc9df9baae8623a9cd1efb46dc419334aac3a0950e90"
+    },
+    {
+      "path": "sillytavern/人物卡/json/ni_yuanlu.json",
+      "bytes": 2353,
+      "sha256": "0f4c34638de900120be05916ee02ed0fc953ad6ea7d1ad8972594664d9adef30"
+    },
+    {
       "path": "sillytavern/人物卡/json/qian_qianyi.json",
       "bytes": 2143,
       "sha256": "a482cd4e74fa1c960102cef282e0a2c8c4c484c5648ad2b40f05e21924fb7bdc"
+    },
+    {
+      "path": "sillytavern/人物卡/json/shi_kefa.json",
+      "bytes": 2410,
+      "sha256": "c47929f5e6e3570858ff527629f98c63d6d92be2e0d6824af97145451caacd48"
     },
     {
       "path": "sillytavern/人物卡/json/song_yingxing.json",
@@ -145,6 +190,11 @@
       "path": "sillytavern/人物卡/json/sun_yuanhua.json",
       "bytes": 2278,
       "sha256": "c79d712fc6065cca000fa229b6f66364f8d34cf5a4c6d86bd8f1e08984345294"
+    },
+    {
+      "path": "sillytavern/人物卡/json/wang_chengen.json",
+      "bytes": 2500,
+      "sha256": "c9bd9a514ac2607547315eca26572e5bbc4d5a5db38df8eba3392b758882f115"
     },
     {
       "path": "sillytavern/人物卡/json/wen_tiren.json",
@@ -172,6 +222,11 @@
       "sha256": "77ee229edd5dba2a9d72e42feec62023bd573c665f56f947f2a9197e07ada29e"
     },
     {
+      "path": "sillytavern/人物卡/json/zhang_xianzhong.json",
+      "bytes": 2383,
+      "sha256": "d8954c7f727808997f04e47980bdbd46f103434049c086567d2b905b57cd68a3"
+    },
+    {
       "path": "sillytavern/人物卡/json/zhou_yanru.json",
       "bytes": 2148,
       "sha256": "20d8adee36074c6cd41242d1a72bb4d9cf343f8a3e7f751b46c05f98b4b8d5ea"
@@ -180,6 +235,11 @@
       "path": "sillytavern/人物卡/json/zu_dashou.json",
       "bytes": 2074,
       "sha256": "9326c682007b1bd01b4e642b0d67865304ac45549ec09a4a7aa5891656984a12"
+    },
+    {
+      "path": "sillytavern/人物卡/json/zuo_liangyu.json",
+      "bytes": 2392,
+      "sha256": "344e405c96223a4474286cfb384fc89a22d8959db00b178d1cbca512d36899f8"
     }
   ],
   "opening_save_files": [
