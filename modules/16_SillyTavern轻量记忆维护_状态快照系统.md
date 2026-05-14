@@ -3,7 +3,7 @@ id: "16"
 title: "SillyTavern 轻量记忆维护、状态快照系统"
 category: "运行与元规则"
 priority: "P0"
-status: "draft"
+status: "v1-ready"
 depends_on: "01, 40"
 ---
 
