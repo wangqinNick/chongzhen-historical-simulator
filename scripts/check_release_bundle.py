@@ -29,6 +29,7 @@ REQUIRED_FRAGMENTS = [
     "chongzhen-sillytavern-bundle/sillytavern/人物卡/json/li_zicheng.json",
     "chongzhen-sillytavern-bundle/sillytavern/人物卡/json/huang_taiji.json",
     "chongzhen-sillytavern-bundle/saves/开局存档/1644_崇祯十七年.md",
+    "chongzhen-sillytavern-bundle/saves/回合日志/回合日志_可复制模板.md",
     "chongzhen-sillytavern-bundle/research/source_reliability_guide.md",
     "chongzhen-sillytavern-bundle/modules/module_index.json",
 ]

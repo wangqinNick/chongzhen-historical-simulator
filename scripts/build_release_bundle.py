@@ -40,6 +40,7 @@ DIRS = [
     "sillytavern/回合样例",
     "sillytavern/群聊预设",
     "saves/开局存档",
+    "saves/回合日志",
 ]
 
 

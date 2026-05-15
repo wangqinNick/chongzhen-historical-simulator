@@ -68,6 +68,7 @@ python scripts\\check_release_bundle.py
 - 7 个首回合样例。
 - 1 个群聊预设文件。
 - 1 个状态字段字典。
+- 1 个回合日志模板。
 - 1 个发布 ZIP。
 
 ## 继续扩展时

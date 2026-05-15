@@ -51,6 +51,7 @@ def main() -> None:
     player_prompts = read("sillytavern/玩家指令模板.md")
     turn_examples = read("sillytavern/回合样例/开局首回合样例.md")
     group_presets = read("sillytavern/群聊预设/推荐群聊组合.md")
+    turn_log_template = read("saves/回合日志/回合日志_可复制模板.md")
     snapshot = read("sillytavern/轻量状态快照模板.md")
     core_lore = read("sillytavern/核心规则_Lorebook草案.md")
     quick_cards = quick_cards_text()
@@ -137,6 +138,14 @@ def main() -> None:
 
 ~~~~text
 {group_presets}
+~~~~
+
+## 02F 回合日志模板
+
+长期存档时，每回合结束后用这一段归档，不要把整段聊天原文全部塞回长期记忆。
+
+~~~~text
+{turn_log_template}
 ~~~~
 
 ## 03 核心 Lorebook 手工条目

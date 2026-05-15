@@ -36,6 +36,7 @@ REQUIRED_FILES = [
     "modules/模块依赖图.md",
     "dist/chongzhen-sillytavern-bundle.zip",
     "saves/开局存档/README.md",
+    "saves/回合日志/回合日志_可复制模板.md",
 ]
 
 BAD_MARKERS = [
