@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T20:01:34",
+  "generated_at": "2026-05-15T20:03:36",
   "package": "chongzhen-historical-simulator",
   "status": "v1-ready",
   "counts": {
@@ -10,10 +10,11 @@
     "lorebooks": {
       "崇祯历史模拟器_人物Lorebook.json": 32,
       "崇祯历史模拟器_全模块Lorebook.json": 56,
-      "崇祯历史模拟器_完整Lorebook.json": 116,
+      "崇祯历史模拟器_完整Lorebook.json": 120,
       "崇祯历史模拟器_开局剧本Lorebook.json": 6,
       "崇祯历史模拟器_快速卡Lorebook.json": 22,
-      "崇祯历史模拟器_核心Lorebook.json": 15
+      "崇祯历史模拟器_核心Lorebook.json": 15,
+      "崇祯历史模拟器_资料规则Lorebook.json": 4
     }
   },
   "primary_files": [
@@ -25,7 +26,7 @@
     {
       "path": "sillytavern/最终一键复制包_崇祯历史模拟器.md",
       "bytes": 368227,
-      "sha256": "1ec043f65aa007a5132fc7c2ec82a14ba5f33b35da05b1501b4167f55ef7377c"
+      "sha256": "d4ed5412b9c27a0e59e92ec57313f3907b77268c5cabefc1940afd9eaaa92c49"
     },
     {
       "path": "sillytavern/导入清单.md",
@@ -76,8 +77,8 @@
     },
     {
       "path": "sillytavern/import/崇祯历史模拟器_完整Lorebook.json",
-      "bytes": 202895,
-      "sha256": "c43caa0403c5edc98fc3b54d2f7b56c40f71aef127d8feceff2060ca8e28c61b"
+      "bytes": 207791,
+      "sha256": "f48c16c528e09752c2a1f4e7576e045b8c9008e9484a926b2fed993e39d66730"
     },
     {
       "path": "sillytavern/import/崇祯历史模拟器_开局剧本Lorebook.json",
@@ -93,6 +94,11 @@
       "path": "sillytavern/import/崇祯历史模拟器_核心Lorebook.json",
       "bytes": 17706,
       "sha256": "f43778d30cbcf4dd95ac8b03c89a84c673e2c4e3333251a4ec89dac9bed89e2a"
+    },
+    {
+      "path": "sillytavern/import/崇祯历史模拟器_资料规则Lorebook.json",
+      "bytes": 4928,
+      "sha256": "ed3cbc46c675f969549ac58c642608a2ba36092f1f14a2699551c58d5a75fe7c"
     }
   ],
   "character_files": [

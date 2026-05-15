@@ -105,7 +105,7 @@ zh-CN
 
 最省事：打开 `sillytavern/最终一键复制包_崇祯历史模拟器.md`，按文件内顺序复制角色卡、Author's Note、状态快照和 Data Bank 资料。
 
-推荐：在 SillyTavern 的 World Info / Lorebook 页面导入 `sillytavern/import/崇祯历史模拟器_完整Lorebook.json`，它包含核心规则、41 个模块条目、快速卡、开局剧本和首批人物条目。
+推荐：在 SillyTavern 的 World Info / Lorebook 页面导入 `sillytavern/import/崇祯历史模拟器_完整Lorebook.json`，它包含核心规则、41 个模块条目、快速卡、资料规则、开局剧本和首批人物条目。
 
 详细导入：`docs/sillytavern_import_guide.md` 说明一键复制、完整 Lorebook、轻量核心规则三种使用方式，以及人物卡、开局存档和常见问题处理。
 
@@ -116,6 +116,8 @@ zh-CN
 完成度审计：`docs/project_completion_audit.md` 汇总模块、人物卡、Lorebook、开局存档、发布包和校验标准。
 
 资料可信度：`research/source_reliability_guide.md` 定义史料原文、学术整理、馆藏网页、网络索引和模拟器采用值的使用边界。
+
+资料规则 Lorebook：`sillytavern/import/崇祯历史模拟器_资料规则Lorebook.json` 可单独导入，也已合并入完整 Lorebook。
 
 快速局势：`sillytavern/快速卡/地区军队派系卡.md` 提供京师、辽东、陕西、河南、江南、山东登莱、宣大蓟镇、关宁军、京营、卫所、剿贼官军、东林士论、阉党清算、商帮海商等高频卡，适合放进 Data Bank 或导入快速卡 Lorebook。
 

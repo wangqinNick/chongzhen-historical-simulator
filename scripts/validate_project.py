@@ -17,6 +17,7 @@ REQUIRED_FILES = [
     "sillytavern/import/崇祯历史模拟器_全模块Lorebook.json",
     "sillytavern/import/崇祯历史模拟器_人物Lorebook.json",
     "sillytavern/import/崇祯历史模拟器_快速卡Lorebook.json",
+    "sillytavern/import/崇祯历史模拟器_资料规则Lorebook.json",
     "sillytavern/import/崇祯历史模拟器_开局剧本Lorebook.json",
     "sillytavern/import/崇祯历史模拟器_完整Lorebook.json",
     "sillytavern/崇祯模拟器_Narrator角色卡草案.md",
@@ -98,6 +99,7 @@ def main() -> None:
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_全模块Lorebook.json",
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_人物Lorebook.json",
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_快速卡Lorebook.json",
+        ROOT / "sillytavern" / "import" / "崇祯历史模拟器_资料规则Lorebook.json",
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_开局剧本Lorebook.json",
         ROOT / "sillytavern" / "import" / "崇祯历史模拟器_完整Lorebook.json",
     ]

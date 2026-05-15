@@ -22,8 +22,8 @@
 | Narrator 角色卡 | `sillytavern/崇祯模拟器_Narrator角色卡.json` | 1 | 可导入 |
 | 人物角色卡 JSON | `sillytavern/人物卡/json/` | 32 | 可导入 |
 | 人物角色卡 Markdown | `sillytavern/人物卡/markdown/` | 32 | 可读可复制 |
-| Lorebook JSON | `sillytavern/import/` | 6 | 可导入 |
-| 完整 Lorebook 条目 | `崇祯历史模拟器_完整Lorebook.json` | 108 | 已整合 |
+| Lorebook JSON | `sillytavern/import/` | 7 | 可导入 |
+| 完整 Lorebook 条目 | `崇祯历史模拟器_完整Lorebook.json` | 120 | 已整合 |
 | 快速卡 | `sillytavern/快速卡/` | 2 | 已完成 |
 | 开局存档 | `saves/开局存档/` | 6 | 可复制 Author's Note |
 | 玩家指令 | `sillytavern/玩家指令模板.md` | 1 | 可直接复制 |
@@ -89,6 +89,6 @@ python scripts\validate_project.py
 - 32 个 JSON 人物卡与 32 个 Markdown 人物卡齐全。
 - 人物 JSON 均为 `chara_card_v2`，并含资料来源、史实要点和触发词。
 - 6 个开局存档齐全。
-- 完整 Lorebook 含 108 个条目。
+- 完整 Lorebook 含 120 个条目。
 - 发布 ZIP 含导入文件、人物卡、快速卡、玩家指令、开局存档、模块索引和 docs。
 - 首回合样例覆盖 1628、1629、1631、1634、1637、1641 六个开局。

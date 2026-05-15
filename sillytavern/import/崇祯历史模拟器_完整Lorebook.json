@@ -2871,6 +2871,157 @@
     "78": {
       "uid": 78,
       "key": [
+        "依据",
+        "来源",
+        "史料",
+        "论文",
+        "网络资料",
+        "可信度",
+        "引用",
+        "考证"
+      ],
+      "keysecondary": [],
+      "comment": "资料可信度分层",
+      "content": "【资料可信度分层】Narrator 必须区分五类依据：A 级为史料原文或权威馆藏说明；B 级为学术论文、专著和数据库整理；C 级为博物馆、大学、研究机构网页；D 级为百科、专题站、年表、论坛等网络索引；E 级为模拟器采用值。D 级不得单独支撑关键数值、重大人物评价或具体战役结论。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 240,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "资料规则",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "79": {
+      "uid": 79,
+      "key": [
+        "模拟器采用值",
+        "合理推断",
+        "数值",
+        "人物数值",
+        "灾荒等级",
+        "风险等级"
+      ],
+      "keysecondary": [],
+      "comment": "模拟器采用值边界",
+      "content": "【模拟器采用值边界】人物倾向、能力、灾荒等级、民变风险、执行阻力等是游戏裁判值，不是史学定论。输出时如被追问依据，必须说明其来自史实基础、学术整理、网络索引、合理推断还是游戏化采用值。可给区间和等级，不给假精确。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 241,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "资料规则",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "80": {
+      "uid": 80,
+      "key": [
+        "冲突",
+        "史料冲突",
+        "不同说法",
+        "争议",
+        "待复核",
+        "校勘"
+      ],
+      "keysecondary": [],
+      "comment": "来源冲突处理",
+      "content": "【来源冲突处理】如果资料冲突，先保留冲突，不强行抹平；标注各来源类型和可能立场；回合裁判采用更保守、更能解释执行成本的口径；并把待校勘项写入研究清单。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 242,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "资料规则",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "81": {
+      "uid": 81,
+      "key": [
+        "全知",
+        "奏报",
+        "误报",
+        "塘报",
+        "情报",
+        "信息误差",
+        "密报"
+      ],
+      "keysecondary": [],
+      "comment": "资料与信息边界",
+      "content": "【资料与信息边界】玩家作为崇祯不能天然全知。奏报、塘报、战报、账册、密报都有延迟、筛选和失真。重要决策应区分奏报版、密报版和事后核实版。",
+      "constant": false,
+      "vectorized": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "addMemo": true,
+      "order": 243,
+      "position": 0,
+      "disable": false,
+      "excludeRecursion": false,
+      "preventRecursion": false,
+      "delayUntilRecursion": false,
+      "probability": 100,
+      "useProbability": true,
+      "depth": 4,
+      "group": "资料规则",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "scanDepth": null,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": "",
+      "role": null
+    },
+    "82": {
+      "uid": 82,
+      "key": [
         "崇祯元年 / 1628 / 春",
         "1628",
         "崇祯元年",
@@ -2905,8 +3056,8 @@
       "automationId": "",
       "role": null
     },
-    "79": {
-      "uid": 79,
+    "83": {
+      "uid": 83,
       "key": [
         "崇祯二年 / 1629 / 秋冬前",
         "1629",
@@ -2942,8 +3093,8 @@
       "automationId": "",
       "role": null
     },
-    "80": {
-      "uid": 80,
+    "84": {
+      "uid": 84,
       "key": [
         "崇祯四年 / 1631 / 夏秋",
         "1631",
@@ -2979,8 +3130,8 @@
       "automationId": "",
       "role": null
     },
-    "81": {
-      "uid": 81,
+    "85": {
+      "uid": 85,
       "key": [
         "崇祯七年 / 1634 / 春夏",
         "1634",
@@ -3016,8 +3167,8 @@
       "automationId": "",
       "role": null
     },
-    "82": {
-      "uid": 82,
+    "86": {
+      "uid": 86,
       "key": [
         "崇祯十年 / 1637 / 春",
         "1637",
@@ -3053,8 +3204,8 @@
       "automationId": "",
       "role": null
     },
-    "83": {
-      "uid": 83,
+    "87": {
+      "uid": 87,
       "key": [
         "崇祯十四年 / 1641 / 春",
         "1641",
@@ -3090,8 +3241,8 @@
       "automationId": "",
       "role": null
     },
-    "84": {
-      "uid": 84,
+    "88": {
+      "uid": 88,
       "key": [
         "崇祯",
         "朱由检",
@@ -3127,8 +3278,8 @@
       "automationId": "",
       "role": null
     },
-    "85": {
-      "uid": 85,
+    "89": {
+      "uid": 89,
       "key": [
         "袁崇焕",
         "袁督师",
@@ -3164,8 +3315,8 @@
       "automationId": "",
       "role": null
     },
-    "86": {
-      "uid": 86,
+    "90": {
+      "uid": 90,
       "key": [
         "祖大寿",
         "关宁军",
@@ -3200,8 +3351,8 @@
       "automationId": "",
       "role": null
     },
-    "87": {
-      "uid": 87,
+    "91": {
+      "uid": 91,
       "key": [
         "周延儒",
         "阁臣",
@@ -3236,8 +3387,8 @@
       "automationId": "",
       "role": null
     },
-    "88": {
-      "uid": 88,
+    "92": {
+      "uid": 92,
       "key": [
         "温体仁",
         "反东林",
@@ -3272,8 +3423,8 @@
       "automationId": "",
       "role": null
     },
-    "89": {
-      "uid": 89,
+    "93": {
+      "uid": 93,
       "key": [
         "钱谦益",
         "牧斋",
@@ -3309,8 +3460,8 @@
       "automationId": "",
       "role": null
     },
-    "90": {
-      "uid": 90,
+    "94": {
+      "uid": 94,
       "key": [
         "孙承宗",
         "辽东老臣",
@@ -3345,8 +3496,8 @@
       "automationId": "",
       "role": null
     },
-    "91": {
-      "uid": 91,
+    "95": {
+      "uid": 95,
       "key": [
         "洪承畴",
         "洪督师",
@@ -3381,8 +3532,8 @@
       "automationId": "",
       "role": null
     },
-    "92": {
-      "uid": 92,
+    "96": {
+      "uid": 96,
       "key": [
         "卢象升",
         "天雄军",
@@ -3417,8 +3568,8 @@
       "automationId": "",
       "role": null
     },
-    "93": {
-      "uid": 93,
+    "97": {
+      "uid": 97,
       "key": [
         "孙传庭",
         "陕西",
@@ -3453,8 +3604,8 @@
       "automationId": "",
       "role": null
     },
-    "94": {
-      "uid": 94,
+    "98": {
+      "uid": 98,
       "key": [
         "毕自严",
         "户部尚书",
@@ -3490,8 +3641,8 @@
       "automationId": "",
       "role": null
     },
-    "95": {
-      "uid": 95,
+    "99": {
+      "uid": 99,
       "key": [
         "杨嗣昌",
         "剿饷",
@@ -3527,8 +3678,8 @@
       "automationId": "",
       "role": null
     },
-    "96": {
-      "uid": 96,
+    "100": {
+      "uid": 100,
       "key": [
         "陈奇瑜",
         "车箱峡",
@@ -3563,8 +3714,8 @@
       "automationId": "",
       "role": null
     },
-    "97": {
-      "uid": 97,
+    "101": {
+      "uid": 101,
       "key": [
         "徐光启",
         "西学",
@@ -3600,8 +3751,8 @@
       "automationId": "",
       "role": null
     },
-    "98": {
-      "uid": 98,
+    "102": {
+      "uid": 102,
       "key": [
         "孙元化",
         "登莱",
@@ -3637,8 +3788,8 @@
       "automationId": "",
       "role": null
     },
-    "99": {
-      "uid": 99,
+    "103": {
+      "uid": 103,
       "key": [
         "宋应星",
         "天工开物",
@@ -3674,8 +3825,8 @@
       "automationId": "",
       "role": null
     },
-    "100": {
-      "uid": 100,
+    "104": {
+      "uid": 104,
       "key": [
         "曹化淳",
         "宦官",
@@ -3711,8 +3862,8 @@
       "automationId": "",
       "role": null
     },
-    "101": {
-      "uid": 101,
+    "105": {
+      "uid": 105,
       "key": [
         "吴三桂",
         "山海关",
@@ -3748,8 +3899,8 @@
       "automationId": "",
       "role": null
     },
-    "102": {
-      "uid": 102,
+    "106": {
+      "uid": 106,
       "key": [
         "李自成",
         "闯王",
@@ -3785,8 +3936,8 @@
       "automationId": "",
       "role": null
     },
-    "103": {
-      "uid": 103,
+    "107": {
+      "uid": 107,
       "key": [
         "皇太极",
         "后金",
@@ -3822,8 +3973,8 @@
       "automationId": "",
       "role": null
     },
-    "104": {
-      "uid": 104,
+    "108": {
+      "uid": 108,
       "key": [
         "王承恩",
         "司礼监",
@@ -3859,8 +4010,8 @@
       "automationId": "",
       "role": null
     },
-    "105": {
-      "uid": 105,
+    "109": {
+      "uid": 109,
       "key": [
         "李邦华",
         "都察院",
@@ -3896,8 +4047,8 @@
       "automationId": "",
       "role": null
     },
-    "106": {
-      "uid": 106,
+    "110": {
+      "uid": 110,
       "key": [
         "倪元璐",
         "士林",
@@ -3933,8 +4084,8 @@
       "automationId": "",
       "role": null
     },
-    "107": {
-      "uid": 107,
+    "111": {
+      "uid": 111,
       "key": [
         "史可法",
         "史阁部",
@@ -3970,8 +4121,8 @@
       "automationId": "",
       "role": null
     },
-    "108": {
-      "uid": 108,
+    "112": {
+      "uid": 112,
       "key": [
         "曹文诏",
         "曹总兵",
@@ -4007,8 +4158,8 @@
       "automationId": "",
       "role": null
     },
-    "109": {
-      "uid": 109,
+    "113": {
+      "uid": 113,
       "key": [
         "左良玉",
         "左镇",
@@ -4044,8 +4195,8 @@
       "automationId": "",
       "role": null
     },
-    "110": {
-      "uid": 110,
+    "114": {
+      "uid": 114,
       "key": [
         "高迎祥",
         "老闯王",
@@ -4081,8 +4232,8 @@
       "automationId": "",
       "role": null
     },
-    "111": {
-      "uid": 111,
+    "115": {
+      "uid": 115,
       "key": [
         "张献忠",
         "八大王",
@@ -4118,8 +4269,8 @@
       "automationId": "",
       "role": null
     },
-    "112": {
-      "uid": 112,
+    "116": {
+      "uid": 116,
       "key": [
         "范文程",
         "汉臣",
@@ -4155,8 +4306,8 @@
       "automationId": "",
       "role": null
     },
-    "113": {
-      "uid": 113,
+    "117": {
+      "uid": 117,
       "key": [
         "多尔衮",
         "睿亲王",
@@ -4192,8 +4343,8 @@
       "automationId": "",
       "role": null
     },
-    "114": {
-      "uid": 114,
+    "118": {
+      "uid": 118,
       "key": [
         "孔有德",
         "登莱兵变",
@@ -4229,8 +4380,8 @@
       "automationId": "",
       "role": null
     },
-    "115": {
-      "uid": 115,
+    "119": {
+      "uid": 119,
       "key": [
         "毛文龙",
         "东江镇",
