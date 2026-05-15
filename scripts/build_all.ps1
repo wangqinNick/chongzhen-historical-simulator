@@ -14,6 +14,7 @@ python scripts\generate_module_index.py
 python scripts\generate_full_lorebook.py
 python scripts\build_final_copy_pack.py
 python scripts\generate_package_manifest.py
+python scripts\generate_start_here.py
 python scripts\build_release_bundle.py
 python scripts\check_release_bundle.py
 python scripts\validate_project.py

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T22:31:33",
+  "generated_at": "2026-05-15T22:32:34",
   "package": "chongzhen-historical-simulator",
   "status": "v1-ready",
   "counts": {
@@ -26,7 +26,7 @@
     {
       "path": "sillytavern/最终一键复制包_崇祯历史模拟器.md",
       "bytes": 374923,
-      "sha256": "c31417bdbe7e141f0cc41fa8413521ccc80d6076c1da0606b049c41fe274ed69"
+      "sha256": "68f5722c987d36994fb2d8e07be86930777747979dc2eab8338e797f8522559c"
     },
     {
       "path": "sillytavern/导入清单.md",

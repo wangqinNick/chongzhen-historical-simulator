@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED_FILES = [
     "sillytavern/最终一键复制包_崇祯历史模拟器.md",
+    "START_HERE.md",
     "sillytavern/import/崇祯历史模拟器_核心Lorebook.json",
     "sillytavern/import/崇祯历史模拟器_全模块Lorebook.json",
     "sillytavern/import/崇祯历史模拟器_人物Lorebook.json",

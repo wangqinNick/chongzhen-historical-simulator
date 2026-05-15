@@ -2,6 +2,8 @@
 
 用于搭建 SillyTavern 崇祯历史模拟器的模块化文件结构。Agent 可根据此 JSON 创建 GitHub 仓库、目录和 Markdown 文件。
 
+最短入口：先读 `START_HERE.md`。
+
 ## 推荐仓库名
 
 sillytavern-chongzhen-simulator

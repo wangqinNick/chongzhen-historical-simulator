@@ -13,6 +13,7 @@ ZIP_PATH = ROOT / "dist" / "chongzhen-sillytavern-bundle.zip"
 
 REQUIRED_FRAGMENTS = [
     "chongzhen-sillytavern-bundle/README.md",
+    "chongzhen-sillytavern-bundle/START_HERE.md",
     "chongzhen-sillytavern-bundle/RELEASE_NOTES.md",
     "chongzhen-sillytavern-bundle/docs/project_completion_audit.md",
     "chongzhen-sillytavern-bundle/docs/sillytavern_import_guide.md",
@@ -76,4 +77,3 @@ if __name__ == "__main__":
     except Exception as exc:  # pragma: no cover
         print(f"FAIL: {exc}")
         sys.exit(1)
-
