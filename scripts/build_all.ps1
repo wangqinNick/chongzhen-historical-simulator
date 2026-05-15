@@ -15,6 +15,7 @@ python scripts\generate_full_lorebook.py
 python scripts\build_final_copy_pack.py
 python scripts\generate_package_manifest.py
 python scripts\build_release_bundle.py
+python scripts\check_release_bundle.py
 python scripts\validate_project.py
 
 Write-Host "Build complete: SillyTavern package generated and validated."

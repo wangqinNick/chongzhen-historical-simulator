@@ -32,6 +32,7 @@ powershell -ExecutionPolicy Bypass -File scripts\build_all.ps1
 
 ```powershell
 python scripts\validate_project.py
+python scripts\check_release_bundle.py
 ```
 
 校验项包括：
@@ -43,8 +44,8 @@ python scripts\validate_project.py
 - Lorebook JSON 均含 entries。
 - 完整 Lorebook 至少包含 96 个条目。
 - 发布 ZIP 存在且包含导入目录、人物卡、最终复制包、开局存档和模块索引。
+- 发布 ZIP 至少包含 32 张人物卡、7 个开局存档、7 个 Lorebook，并含甲申末局、群聊预设和资料规则文件。
 
 ## 版本原则
 
 每次修改资料、模块、人物或生成脚本后，都应运行构建脚本，让 `sillytavern/package_manifest.json`、最终复制包和发布 ZIP 同步更新。
-

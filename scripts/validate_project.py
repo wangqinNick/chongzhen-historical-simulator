@@ -81,8 +81,8 @@ def main() -> None:
         fail(f"character json/markdown count mismatch: json={len(character_json)}, md={len(character_md)}")
 
     opening_saves = sorted((ROOT / "saves" / "开局存档").glob("*.json"))
-    if len(opening_saves) < 6:
-        fail(f"expected at least 6 opening save JSON files, found {len(opening_saves)}")
+    if len(opening_saves) < 7:
+        fail(f"expected at least 7 opening save JSON files, found {len(opening_saves)}")
 
     for path in character_json:
         data = load_json(path)
@@ -111,8 +111,8 @@ def main() -> None:
             fail(f"{path} has no entries")
 
     complete_entries = load_json(ROOT / "sillytavern" / "import" / "崇祯历史模拟器_完整Lorebook.json")["entries"]
-    if len(complete_entries) < 96:
-        fail(f"complete lorebook should have at least 96 entries, found {len(complete_entries)}")
+    if len(complete_entries) < 121:
+        fail(f"complete lorebook should have at least 121 entries, found {len(complete_entries)}")
 
     narrator = load_json(ROOT / "sillytavern" / "崇祯模拟器_Narrator角色卡.json")
     if narrator.get("spec") != "chara_card_v2":
@@ -124,7 +124,7 @@ def main() -> None:
         fail("manifest module count is incorrect")
     if counts.get("character_json", 0) < 20:
         fail("manifest character count is incorrect")
-    if counts.get("opening_saves", 0) < 6:
+    if counts.get("opening_saves", 0) < 7:
         fail("manifest opening save count is incorrect")
 
     module_index = load_json(ROOT / "modules" / "module_index.json")

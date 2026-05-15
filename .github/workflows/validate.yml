@@ -25,3 +25,6 @@ jobs:
         shell: pwsh
         run: python scripts\validate_project.py
 
+      - name: Check release bundle
+        shell: pwsh
+        run: python scripts\check_release_bundle.py
