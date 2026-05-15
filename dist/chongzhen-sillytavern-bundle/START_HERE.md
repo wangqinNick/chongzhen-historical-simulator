@@ -1,6 +1,6 @@
 # 从这里开始
 
-生成时间：2026-05-15T22:37:08
+生成时间：2026-05-15T22:38:28
 
 这是崇祯历史模拟器的最短入口页。你不需要先读完全部模块，按自己的使用方式选一条路径即可。
 
@@ -65,3 +65,9 @@ powershell -ExecutionPolicy Bypass -File scripts\build_all.ps1
 ```
 
 它会重建角色卡、人物卡、快速卡、开局剧本、完整 Lorebook、最终复制包、包清单和发布 ZIP，并自动校验。
+
+## 遇到问题
+
+先看：
+
+`docs/sillytavern_troubleshooting.md`

@@ -80,6 +80,12 @@ powershell -ExecutionPolicy Bypass -File scripts\\build_all.ps1
 ```
 
 它会重建角色卡、人物卡、快速卡、开局剧本、完整 Lorebook、最终复制包、包清单和发布 ZIP，并自动校验。
+
+## 遇到问题
+
+先看：
+
+`docs/sillytavern_troubleshooting.md`
 """
     OUT.write_text(content, encoding="utf-8")
     print(f"Wrote {OUT}")

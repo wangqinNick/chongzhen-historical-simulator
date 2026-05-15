@@ -30,6 +30,7 @@
 | 首回合样例 | `sillytavern/回合样例/开局首回合样例.md` | 7 | 可直接复制 |
 | 群聊预设 | `sillytavern/群聊预设/推荐群聊组合.md` | 6 | 可直接复制 |
 | 状态字段字典 | `docs/state_field_dictionary.md` | 1 | 可放入 Data Bank |
+| 排错手册 | `docs/sillytavern_troubleshooting.md` | 1 | 可直接阅读 |
 | 回合日志模板 | `saves/回合日志/回合日志_可复制模板.md` | 1 | 可直接复制 |
 | 最终复制包 | `sillytavern/最终一键复制包_崇祯历史模拟器.md` | 1 | 可直接复制 |
 | 发布 ZIP | `dist/chongzhen-sillytavern-bundle.zip` | 1 | 已纳入 Git |
@@ -98,3 +99,4 @@ python scripts\validate_project.py
 - 群聊预设覆盖基础朝堂、辽东、剿抚、西学、江南财政和甲申末局。
 - 状态字段字典统一 Author's Note、开局存档和回合日志里的字段含义。
 - 回合日志模板用于长期存档，避免把整段聊天原文塞回长期记忆。
+- 排错手册覆盖导入、Lorebook、Author's Note、群聊和引用口径问题。

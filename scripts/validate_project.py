@@ -33,6 +33,7 @@ REQUIRED_FILES = [
     "sillytavern/快速卡/地区军队派系卡.md",
     "research/source_reliability_guide.md",
     "docs/state_field_dictionary.md",
+    "docs/sillytavern_troubleshooting.md",
     "modules/module_index.json",
     "modules/模块依赖图.md",
     "dist/chongzhen-sillytavern-bundle.zip",

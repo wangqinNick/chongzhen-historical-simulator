@@ -113,6 +113,8 @@ zh-CN
 
 详细导入：`docs/sillytavern_import_guide.md` 说明一键复制、完整 Lorebook、轻量核心规则三种使用方式，以及人物卡、开局存档和常见问题处理。
 
+导入排错：`docs/sillytavern_troubleshooting.md` 处理角色卡不像裁判、Lorebook 触发异常、Author's Note 漂移、群聊抢戏等问题。
+
 玩家指令：`sillytavern/玩家指令模板.md` 可直接复制到聊天框，用于开局盘点、标准诏书、回合结算、严格模式和切换开局。
 
 首回合样例：`sillytavern/回合样例/开局首回合样例.md` 覆盖 7 个开局年份，可直接复制到 SillyTavern 测试 Narrator 裁判路径。
