@@ -15,6 +15,7 @@ ZIP_PATH = ROOT / "dist" / "chongzhen-sillytavern-bundle.zip"
 
 FILES = [
     "START_HERE.md",
+    "BUILD_REPORT.md",
     "README.md",
     "RELEASE_NOTES.md",
     "sillytavern/导入清单.md",

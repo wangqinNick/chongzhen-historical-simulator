@@ -4,6 +4,8 @@
 
 最短入口：先读 `START_HERE.md`。
 
+当前构建摘要：`BUILD_REPORT.md`。
+
 ## 推荐仓库名
 
 sillytavern-chongzhen-simulator
