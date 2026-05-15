@@ -28,6 +28,7 @@ REQUIRED_FILES = [
     "sillytavern/玩家指令模板.md",
     "sillytavern/回合样例/开局首回合样例.md",
     "sillytavern/群聊预设/推荐群聊组合.md",
+    "sillytavern/人物卡/人物总表.md",
     "sillytavern/当前状态_AuthorNote模板.md",
     "sillytavern/开局剧本_AuthorNote合集.md",
     "sillytavern/快速卡/地区军队派系卡.md",

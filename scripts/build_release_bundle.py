@@ -24,6 +24,7 @@ FILES = [
     "sillytavern/崇祯模拟器_Narrator角色卡草案.md",
     "sillytavern/玩家指令模板.md",
     "sillytavern/package_manifest.json",
+    "sillytavern/人物卡/人物总表.md",
     "research/baseline_data_register.md",
     "research/source_catalog.md",
     "research/source_reliability_guide.md",

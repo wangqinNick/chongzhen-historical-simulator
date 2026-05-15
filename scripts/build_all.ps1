@@ -6,6 +6,7 @@ Set-Location $Root
 
 python scripts\generate_narrator_card.py
 python scripts\generate_character_cards.py
+python scripts\generate_character_roster.py
 python scripts\generate_quick_cards_lorebook.py
 python scripts\generate_source_rules_lorebook.py
 python scripts\generate_scenario_lorebook.py

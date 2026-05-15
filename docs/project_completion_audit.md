@@ -22,6 +22,7 @@
 | Narrator 角色卡 | `sillytavern/崇祯模拟器_Narrator角色卡.json` | 1 | 可导入 |
 | 人物角色卡 JSON | `sillytavern/人物卡/json/` | 32 | 可导入 |
 | 人物角色卡 Markdown | `sillytavern/人物卡/markdown/` | 32 | 可读可复制 |
+| 人物总表 | `sillytavern/人物卡/人物总表.md` | 1 | 可读索引 |
 | Lorebook JSON | `sillytavern/import/` | 7 | 可导入 |
 | 完整 Lorebook 条目 | `崇祯历史模拟器_完整Lorebook.json` | 120 | 已整合 |
 | 快速卡 | `sillytavern/快速卡/` | 2 | 已完成 |

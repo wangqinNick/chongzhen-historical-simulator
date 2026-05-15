@@ -137,6 +137,8 @@ zh-CN
 
 多角色：把 `sillytavern/人物卡/json/` 下的人物 JSON 逐个导入 SillyTavern，可用于 Group Chat；单 Narrator 模式则导入 `sillytavern/import/崇祯历史模拟器_人物Lorebook.json` 即可。
 
+人物总表：`sillytavern/人物卡/人物总表.md` 汇总 32 张人物卡的文件名、定位、触发词和资料来源。
+
 轻量：打开 `sillytavern/一键复制版_崇祯模拟器.md`，复制“整段复制版”到 SillyTavern 角色卡 Description / System Prompt 类字段，再复制 Author's Note 初始状态到当前聊天的 Author's Note。
 
 更稳：角色卡使用 `崇祯模拟器_Narrator角色卡草案.md`，World Info / Lorebook 使用 `核心规则_Lorebook草案.md` 的分条触发词，当前状态使用 `当前状态_AuthorNote模板.md`。

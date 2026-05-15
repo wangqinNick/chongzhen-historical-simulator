@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T22:38:28",
+  "generated_at": "2026-05-15T22:39:37",
   "package": "chongzhen-historical-simulator",
   "status": "v1-ready",
   "counts": {
@@ -26,7 +26,7 @@
     {
       "path": "sillytavern/最终一键复制包_崇祯历史模拟器.md",
       "bytes": 380078,
-      "sha256": "6c865a5cf75feb72bf5b8c39efad58b18324f5a667a65fd36668b36e65dab273"
+      "sha256": "d71530fedf42cccb038928d028ad94cdc15a022278b429260fe1605264c201bb"
     },
     {
       "path": "sillytavern/导入清单.md",
@@ -47,6 +47,11 @@
       "path": "sillytavern/群聊预设/推荐群聊组合.md",
       "bytes": 4411,
       "sha256": "2697af79bb4c3e296b589de88d3aeae9722143e4c9e2c1655d81adbad636f405"
+    },
+    {
+      "path": "sillytavern/人物卡/人物总表.md",
+      "bytes": 8969,
+      "sha256": "8c5c057e7cef422770febac054b2ce9987cfcd3f6d4780442919a65cbac47811"
     },
     {
       "path": "sillytavern/快速卡/地区军队派系卡.md",

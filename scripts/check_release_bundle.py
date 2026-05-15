@@ -27,6 +27,7 @@ REQUIRED_FRAGMENTS = [
     "chongzhen-sillytavern-bundle/sillytavern/玩家指令模板.md",
     "chongzhen-sillytavern-bundle/sillytavern/回合样例/开局首回合样例.md",
     "chongzhen-sillytavern-bundle/sillytavern/群聊预设/推荐群聊组合.md",
+    "chongzhen-sillytavern-bundle/sillytavern/人物卡/人物总表.md",
     "chongzhen-sillytavern-bundle/sillytavern/人物卡/json/chongzhen.json",
     "chongzhen-sillytavern-bundle/sillytavern/人物卡/json/li_zicheng.json",
     "chongzhen-sillytavern-bundle/sillytavern/人物卡/json/huang_taiji.json",
