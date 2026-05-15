@@ -50,6 +50,7 @@ def main() -> None:
     scenario_notes = read("sillytavern/开局剧本_AuthorNote合集.md")
     player_prompts = read("sillytavern/玩家指令模板.md")
     turn_examples = read("sillytavern/回合样例/开局首回合样例.md")
+    group_presets = read("sillytavern/群聊预设/推荐群聊组合.md")
     snapshot = read("sillytavern/轻量状态快照模板.md")
     core_lore = read("sillytavern/核心规则_Lorebook草案.md")
     quick_cards = quick_cards_text()
@@ -127,6 +128,14 @@ def main() -> None:
 
 ~~~~text
 {turn_examples}
+~~~~
+
+## 02E 群聊预设组合
+
+如果使用 SillyTavern Group Chat，按剧本选择少量人物，不要一次导入全部角色。
+
+~~~~text
+{group_presets}
 ~~~~
 
 ## 03 核心 Lorebook 手工条目

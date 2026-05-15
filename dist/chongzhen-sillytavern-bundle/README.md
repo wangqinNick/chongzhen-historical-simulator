@@ -111,7 +111,9 @@ zh-CN
 
 玩家指令：`sillytavern/玩家指令模板.md` 可直接复制到聊天框，用于开局盘点、标准诏书、回合结算、严格模式和切换开局。
 
-首回合样例：`sillytavern/回合样例/开局首回合样例.md` 覆盖 6 个开局年份，可直接复制到 SillyTavern 测试 Narrator 裁判路径。
+首回合样例：`sillytavern/回合样例/开局首回合样例.md` 覆盖 7 个开局年份，可直接复制到 SillyTavern 测试 Narrator 裁判路径。
+
+群聊预设：`sillytavern/群聊预设/推荐群聊组合.md` 提供不同剧本的 Group Chat 人物组合，避免一次导入全部角色导致上下文失控。
 
 完成度审计：`docs/project_completion_audit.md` 汇总模块、人物卡、Lorebook、开局存档、发布包和校验标准。
 

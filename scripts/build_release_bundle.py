@@ -37,6 +37,7 @@ DIRS = [
     "sillytavern/人物卡/markdown",
     "sillytavern/快速卡",
     "sillytavern/回合样例",
+    "sillytavern/群聊预设",
     "saves/开局存档",
 ]
 
