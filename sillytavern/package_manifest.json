@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-15T20:03:36",
+  "generated_at": "2026-05-15T20:05:08",
   "package": "chongzhen-historical-simulator",
   "status": "v1-ready",
   "counts": {
     "modules": 41,
     "character_json": 32,
     "character_markdown": 32,
-    "opening_saves": 6,
+    "opening_saves": 7,
     "lorebooks": {
       "崇祯历史模拟器_人物Lorebook.json": 32,
       "崇祯历史模拟器_全模块Lorebook.json": 56,
-      "崇祯历史模拟器_完整Lorebook.json": 120,
-      "崇祯历史模拟器_开局剧本Lorebook.json": 6,
+      "崇祯历史模拟器_完整Lorebook.json": 121,
+      "崇祯历史模拟器_开局剧本Lorebook.json": 7,
       "崇祯历史模拟器_快速卡Lorebook.json": 22,
       "崇祯历史模拟器_核心Lorebook.json": 15,
       "崇祯历史模拟器_资料规则Lorebook.json": 4
@@ -25,8 +25,8 @@
     },
     {
       "path": "sillytavern/最终一键复制包_崇祯历史模拟器.md",
-      "bytes": 368227,
-      "sha256": "d4ed5412b9c27a0e59e92ec57313f3907b77268c5cabefc1940afd9eaaa92c49"
+      "bytes": 370238,
+      "sha256": "6b4523d7796c733604c1ca4dd20be238c759181b34452011d71a939ddac558b5"
     },
     {
       "path": "sillytavern/导入清单.md",
@@ -40,8 +40,8 @@
     },
     {
       "path": "sillytavern/回合样例/开局首回合样例.md",
-      "bytes": 4134,
-      "sha256": "1ed5ef951c043b49e89ffbbf81500bb763b32e5aaa1555165fcb5b306f1f7d82"
+      "bytes": 4913,
+      "sha256": "883ffb3a8506bfa9079ff9ac7f855eb63685245c38c12d1a468f78d76f23d989"
     },
     {
       "path": "sillytavern/快速卡/地区军队派系卡.md",
@@ -77,13 +77,13 @@
     },
     {
       "path": "sillytavern/import/崇祯历史模拟器_完整Lorebook.json",
-      "bytes": 207791,
-      "sha256": "f48c16c528e09752c2a1f4e7576e045b8c9008e9484a926b2fed993e39d66730"
+      "bytes": 210009,
+      "sha256": "40610d34643e2c2024d78e528bf7e96898554cd542bf6585b8f9f29d1d04903d"
     },
     {
       "path": "sillytavern/import/崇祯历史模拟器_开局剧本Lorebook.json",
-      "bytes": 10204,
-      "sha256": "669b439d5696020c2d05a2102ede03ba128f5bb4ff37e4e664448297cd5d1797"
+      "bytes": 12424,
+      "sha256": "c456ba7443a4a4222a5e4df9ad3c25d5727acb0ea0e374fca09412928a7e1b51"
     },
     {
       "path": "sillytavern/import/崇祯历史模拟器_快速卡Lorebook.json",
@@ -293,6 +293,11 @@
       "path": "saves/开局存档/1641_崇祯十四年.json",
       "bytes": 1339,
       "sha256": "55bc5736e2970a634aeec307890cf57b5a3cf2bdebe31a7b676d0bf3813462fa"
+    },
+    {
+      "path": "saves/开局存档/1644_崇祯十七年.json",
+      "bytes": 2556,
+      "sha256": "71cb4bb43bb11b457d5a2a1a7fb61e8a67a5d524f97d14f530c06eb4c662f452"
     }
   ],
   "build_command": "powershell -ExecutionPolicy Bypass -File scripts\\build_all.ps1",

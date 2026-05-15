@@ -25,7 +25,7 @@
 - 32 份人物 Markdown 卡。
 - 7 个 Lorebook JSON。
 - 120 个完整 Lorebook 条目。
-- 6 个开局 Author's Note 存档。
+- 7 个开局 Author's Note 存档。
 - 地区、军队、派系快速卡。
 - 玩家指令模板。
 - 完成度审计、导入指南、发布包说明。
@@ -37,6 +37,7 @@
 - 人物卡从 20 张扩展到 32 张，新增王承恩、李邦华、倪元璐、史可法、曹文诏、左良玉、高迎祥、张献忠、范文程、多尔衮、孔有德、毛文龙。
 - 完整 Lorebook 条目从 96 条扩展到 120 条。
 - 新增 `崇祯历史模拟器_资料规则Lorebook.json`，用于触发资料可信度、来源冲突、模拟器采用值和信息边界规则。
+- 新增 1644 崇祯十七年 / 甲申末局开局存档和首回合样例。
 - 新增 `sillytavern/玩家指令模板.md`，覆盖开局、诏书、回合结算、严格模式、轻量输出、切换开局和记忆修正。
 - 新增 `docs/project_completion_audit.md`，列明当前完成度、人物覆盖、资料判断规则和已知边界。
 - 新增 `.github/workflows/validate.yml`，push 和 pull request 时自动构建并校验。
@@ -51,5 +52,5 @@ python scripts\validate_project.py
 当前本地校验结果：
 
 ```text
-OK: modules=41, characters=32, opening_saves=6, complete_lorebook_entries=120
+OK: modules=41, characters=32, opening_saves=7, complete_lorebook_entries=121
 ```
