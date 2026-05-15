@@ -115,6 +115,8 @@ zh-CN
 
 快速局势：`sillytavern/快速卡/地区军队派系卡.md` 提供京师、辽东、陕西、河南、江南、山东登莱、宣大蓟镇、关宁军、京营、卫所、剿贼官军、东林士论、阉党清算、商帮海商等高频卡，适合放进 Data Bank 或导入快速卡 Lorebook。
 
+补充快速卡：`data/quick_cards_extra.json` 会生成 `sillytavern/快速卡/补充地区军队派系卡.md`，覆盖南京南直隶、湖广、四川、山西、闽粤海贸、漕运、宗藩和驿传塘报。
+
 多角色：把 `sillytavern/人物卡/json/` 下的人物 JSON 逐个导入 SillyTavern，可用于 Group Chat；单 Narrator 模式则导入 `sillytavern/import/崇祯历史模拟器_人物Lorebook.json` 即可。
 
 轻量：打开 `sillytavern/一键复制版_崇祯模拟器.md`，复制“整段复制版”到 SillyTavern 角色卡 Description / System Prompt 类字段，再复制 Author's Note 初始状态到当前聊天的 Author's Note。
