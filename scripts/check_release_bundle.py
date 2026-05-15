@@ -17,6 +17,7 @@ REQUIRED_FRAGMENTS = [
     "chongzhen-sillytavern-bundle/RELEASE_NOTES.md",
     "chongzhen-sillytavern-bundle/docs/project_completion_audit.md",
     "chongzhen-sillytavern-bundle/docs/sillytavern_import_guide.md",
+    "chongzhen-sillytavern-bundle/docs/state_field_dictionary.md",
     "chongzhen-sillytavern-bundle/sillytavern/import/崇祯历史模拟器_完整Lorebook.json",
     "chongzhen-sillytavern-bundle/sillytavern/import/崇祯历史模拟器_资料规则Lorebook.json",
     "chongzhen-sillytavern-bundle/sillytavern/崇祯模拟器_Narrator角色卡.json",

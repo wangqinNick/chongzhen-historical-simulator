@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T22:32:34",
+  "generated_at": "2026-05-15T22:34:35",
   "package": "chongzhen-historical-simulator",
   "status": "v1-ready",
   "counts": {
@@ -25,8 +25,8 @@
     },
     {
       "path": "sillytavern/最终一键复制包_崇祯历史模拟器.md",
-      "bytes": 374923,
-      "sha256": "68f5722c987d36994fb2d8e07be86930777747979dc2eab8338e797f8522559c"
+      "bytes": 379062,
+      "sha256": "e3629ea39b144cb5202ca75418e213fc9c150908d5c97811dca95d66b86e6767"
     },
     {
       "path": "sillytavern/导入清单.md",
@@ -52,6 +52,11 @@
       "path": "sillytavern/快速卡/地区军队派系卡.md",
       "bytes": 12890,
       "sha256": "d9fe49e10b56dc902cfec0f5505e104f7771e9c4aec95835e7840571f87d5bb1"
+    },
+    {
+      "path": "docs/state_field_dictionary.md",
+      "bytes": 3910,
+      "sha256": "3c4fb4b69b8b697179d49849553667181617d51bfc76186f8781644d96bac912"
     },
     {
       "path": "research/baseline_data_register.md",

@@ -123,6 +123,8 @@ zh-CN
 
 资料规则 Lorebook：`sillytavern/import/崇祯历史模拟器_资料规则Lorebook.json` 可单独导入，也已合并入完整 Lorebook。
 
+状态字段：`docs/state_field_dictionary.md` 统一 Author's Note、开局存档和回合日志里的字段含义。
+
 快速局势：`sillytavern/快速卡/地区军队派系卡.md` 提供京师、辽东、陕西、河南、江南、山东登莱、宣大蓟镇、关宁军、京营、卫所、剿贼官军、东林士论、阉党清算、商帮海商等高频卡，适合放进 Data Bank 或导入快速卡 Lorebook。
 
 补充快速卡：`data/quick_cards_extra.json` 会生成 `sillytavern/快速卡/补充地区军队派系卡.md`，覆盖南京南直隶、湖广、四川、山西、闽粤海贸、漕运、宗藩和驿传塘报。

@@ -58,6 +58,7 @@ def main() -> None:
     baseline = read("research/baseline_data_register.md")
     sources = read("research/source_catalog.md")
     source_reliability = read("research/source_reliability_guide.md")
+    state_dictionary = read("docs/state_field_dictionary.md")
     modules = all_modules_text()
 
     content = f"""# 最终一键复制包：崇祯历史模拟器
@@ -192,6 +193,14 @@ def main() -> None:
 
 ~~~~text
 {source_reliability}
+~~~~
+
+## 10 状态字段字典
+
+长期游玩时用这一段统一 Author's Note、回合日志和开局存档里的字段含义。
+
+~~~~text
+{state_dictionary}
 ~~~~
 """
 

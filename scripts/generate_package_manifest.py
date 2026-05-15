@@ -44,6 +44,7 @@ def main() -> None:
         ROOT / "sillytavern" / "回合样例" / "开局首回合样例.md",
         ROOT / "sillytavern" / "群聊预设" / "推荐群聊组合.md",
         ROOT / "sillytavern" / "快速卡" / "地区军队派系卡.md",
+        ROOT / "docs" / "state_field_dictionary.md",
         ROOT / "research" / "baseline_data_register.md",
         ROOT / "research" / "source_catalog.md",
         ROOT / "research" / "source_reliability_guide.md",
