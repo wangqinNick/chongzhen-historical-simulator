@@ -65,6 +65,12 @@
 
 如果你使用完整 Lorebook，这些快速卡已经合并进去；如果模型上下文较小，可以只导入核心 Lorebook，再把快速卡 Markdown 放进 Data Bank。
 
+## 资料可信度怎么用
+
+`research/source_reliability_guide.md` 适合放进 Data Bank / RAG。它约束 Narrator 区分史料原文、学术整理、馆藏网页、网络索引和模拟器采用值。
+
+当模型开始把网络索引写成确定史实，或把人物数值写成史学定论时，把这份指南相关段落重新贴入聊天，并要求它按“依据类型”输出。
+
 ## 人物卡怎么用
 
 如果只用单 Narrator，不需要导入人物角色卡，导入人物 Lorebook 就够了。

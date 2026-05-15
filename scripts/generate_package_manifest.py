@@ -45,6 +45,7 @@ def main() -> None:
         ROOT / "sillytavern" / "快速卡" / "地区军队派系卡.md",
         ROOT / "research" / "baseline_data_register.md",
         ROOT / "research" / "source_catalog.md",
+        ROOT / "research" / "source_reliability_guide.md",
     ]
     lorebooks = sorted(import_dir.glob("*.json"))
 

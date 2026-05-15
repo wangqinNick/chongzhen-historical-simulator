@@ -24,6 +24,7 @@ FILES = [
     "sillytavern/package_manifest.json",
     "research/baseline_data_register.md",
     "research/source_catalog.md",
+    "research/source_reliability_guide.md",
     "modules/module_index.json",
     "modules/模块依赖图.md",
     "saves/开局测试用例.md",

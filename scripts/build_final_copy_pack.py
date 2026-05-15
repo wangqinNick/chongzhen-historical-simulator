@@ -56,6 +56,7 @@ def main() -> None:
     character_cards = all_character_cards_text()
     baseline = read("research/baseline_data_register.md")
     sources = read("research/source_catalog.md")
+    source_reliability = read("research/source_reliability_guide.md")
     modules = all_modules_text()
 
     content = f"""# 最终一键复制包：崇祯历史模拟器
@@ -174,6 +175,14 @@ def main() -> None:
 
 ~~~~text
 {sources}
+~~~~
+
+## 09 资料可信度与引用口径
+
+当模型开始把网络索引当史实、把模拟器数值当史学定论时，优先使用这一段约束。
+
+~~~~text
+{source_reliability}
 ~~~~
 """
 

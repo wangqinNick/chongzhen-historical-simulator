@@ -30,6 +30,7 @@
 | 首回合样例 | `sillytavern/回合样例/开局首回合样例.md` | 6 | 可直接复制 |
 | 最终复制包 | `sillytavern/最终一键复制包_崇祯历史模拟器.md` | 1 | 可直接复制 |
 | 发布 ZIP | `dist/chongzhen-sillytavern-bundle.zip` | 1 | 已纳入 Git |
+| 可信度指南 | `research/source_reliability_guide.md` | 1 | 可放入 Data Bank |
 | 构建脚本 | `scripts/build_all.ps1` | 1 | 一键生成 |
 | 校验脚本 | `scripts/validate_project.py` | 1 | 一键检查 |
 
@@ -65,6 +66,8 @@
 - 网络索引：用于快速定位人物、年份和事件线索，不作为最终高可信终点。
 - 合理推断：用于把史实转成可玩的代理人行为、风险等级和执行难度。
 - 游戏化采用值：用于 SillyTavern 回合裁判，不等同于史实精确数值。
+
+详细口径见 `research/source_reliability_guide.md`。该文件定义 A 至 E 五级来源，并给出 Narrator 回答依据时的格式。
 
 ## 已知边界
 

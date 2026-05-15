@@ -27,6 +27,7 @@ REQUIRED_FILES = [
     "sillytavern/当前状态_AuthorNote模板.md",
     "sillytavern/开局剧本_AuthorNote合集.md",
     "sillytavern/快速卡/地区军队派系卡.md",
+    "research/source_reliability_guide.md",
     "modules/module_index.json",
     "modules/模块依赖图.md",
     "dist/chongzhen-sillytavern-bundle.zip",
