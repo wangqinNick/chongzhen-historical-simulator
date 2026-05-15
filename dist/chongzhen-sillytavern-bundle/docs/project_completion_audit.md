@@ -27,6 +27,7 @@
 | 快速卡 | `sillytavern/快速卡/` | 2 | 已完成 |
 | 开局存档 | `saves/开局存档/` | 6 | 可复制 Author's Note |
 | 玩家指令 | `sillytavern/玩家指令模板.md` | 1 | 可直接复制 |
+| 首回合样例 | `sillytavern/回合样例/开局首回合样例.md` | 6 | 可直接复制 |
 | 最终复制包 | `sillytavern/最终一键复制包_崇祯历史模拟器.md` | 1 | 可直接复制 |
 | 发布 ZIP | `dist/chongzhen-sillytavern-bundle.zip` | 1 | 已纳入 Git |
 | 构建脚本 | `scripts/build_all.ps1` | 1 | 一键生成 |
@@ -87,3 +88,4 @@ python scripts\validate_project.py
 - 6 个开局存档齐全。
 - 完整 Lorebook 含 108 个条目。
 - 发布 ZIP 含导入文件、人物卡、快速卡、玩家指令、开局存档、模块索引和 docs。
+- 首回合样例覆盖 1628、1629、1631、1634、1637、1641 六个开局。

@@ -41,6 +41,7 @@ def main() -> None:
         ROOT / "sillytavern" / "最终一键复制包_崇祯历史模拟器.md",
         ROOT / "sillytavern" / "导入清单.md",
         ROOT / "sillytavern" / "玩家指令模板.md",
+        ROOT / "sillytavern" / "回合样例" / "开局首回合样例.md",
         ROOT / "sillytavern" / "快速卡" / "地区军队派系卡.md",
         ROOT / "research" / "baseline_data_register.md",
         ROOT / "research" / "source_catalog.md",

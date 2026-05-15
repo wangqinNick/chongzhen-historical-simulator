@@ -111,6 +111,8 @@ zh-CN
 
 玩家指令：`sillytavern/玩家指令模板.md` 可直接复制到聊天框，用于开局盘点、标准诏书、回合结算、严格模式和切换开局。
 
+首回合样例：`sillytavern/回合样例/开局首回合样例.md` 覆盖 6 个开局年份，可直接复制到 SillyTavern 测试 Narrator 裁判路径。
+
 完成度审计：`docs/project_completion_audit.md` 汇总模块、人物卡、Lorebook、开局存档、发布包和校验标准。
 
 快速局势：`sillytavern/快速卡/地区军队派系卡.md` 提供京师、辽东、陕西、河南、江南、山东登莱、宣大蓟镇、关宁军、京营、卫所、剿贼官军、东林士论、阉党清算、商帮海商等高频卡，适合放进 Data Bank 或导入快速卡 Lorebook。

@@ -49,6 +49,7 @@ def main() -> None:
     author_note = read("sillytavern/当前状态_AuthorNote模板.md")
     scenario_notes = read("sillytavern/开局剧本_AuthorNote合集.md")
     player_prompts = read("sillytavern/玩家指令模板.md")
+    turn_examples = read("sillytavern/回合样例/开局首回合样例.md")
     snapshot = read("sillytavern/轻量状态快照模板.md")
     core_lore = read("sillytavern/核心规则_Lorebook草案.md")
     quick_cards = quick_cards_text()
@@ -117,6 +118,14 @@ def main() -> None:
 
 ~~~~text
 {player_prompts}
+~~~~
+
+## 02D 开局首回合样例
+
+这些样例可用于测试不同年份开局，帮助 Narrator 按正确检查项进入首回合。
+
+~~~~text
+{turn_examples}
 ~~~~
 
 ## 03 核心 Lorebook 手工条目
